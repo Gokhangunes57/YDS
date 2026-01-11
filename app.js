@@ -3,7 +3,7 @@
 
 class YDSLearner {
     constructor() {
-        this.words = words;
+        this.words = []; // DB'den yüklenecek
         this.currentIndex = 0;
         this.learnedWords = new Set();
         this.learningWords = new Set();
@@ -20,18 +20,30 @@ class YDSLearner {
         this.bindEvents();
     }
 
-    checkAuth() {
-        if (sessionStorage.getItem('yds_auth') === 'true') {
-            this.isAuthenticated = true;
-            document.getElementById('loginScreen').style.display = 'none';
-            this.loadInitialData();
-        }
-    }
+    // İlk checkAuth kaldırıldı, aşağıdakini kullanıyoruz.
 
-    loadInitialData() {
-        this.loadProgress();
+    async loadInitialData() {
+        await this.loadWords();
+        await this.loadProgress();
         this.updateDisplay();
         this.updateStats();
+    }
+
+    async loadWords() {
+        if (this.words.length > 0) return; // Zaten yüklüyse tekrar çekme
+
+        try {
+            this.showToast('Kelimeler yükleniyor... ⏳');
+            const response = await fetch('/api/progress?action=getWords');
+            const result = await response.json();
+            if (result.success && result.data) {
+                this.words = result.data;
+                console.log(`${this.words.length} kelime veritabanından başarıyla yüklendi.`);
+            }
+        } catch (error) {
+            console.error('Error loading words:', error);
+            this.showToast('Kelimeler yüklenirken hata oluştu! ❌');
+        }
     }
 
     initElements() {
@@ -176,7 +188,7 @@ class YDSLearner {
         });
     }
 
-    handleLogin() {
+    async handleLogin() {
         const email = this.emailInput.value.trim().toLowerCase();
 
         // Basit bir email formatı kontrolü
@@ -192,12 +204,18 @@ class YDSLearner {
         this.isAuthenticated = true;
         sessionStorage.setItem('yds_auth_email', email);
 
+        // UI geçişi
         document.getElementById('loginScreen').style.opacity = '0';
         setTimeout(() => {
             document.getElementById('loginScreen').style.display = 'none';
         }, 500);
 
-        this.loadInitialData();
+        // Verileri yükle ve gerekirse ilk kaydı yap
+        await this.loadInitialData();
+
+        // Yeni bir kullanıcı ise DB'ye boş ilerleme kaydet ki e-posta görünsün
+        await this.saveProgress();
+
         this.showToast('Giriş başarılı! Hoş geldin. 🚀');
     }
 
@@ -256,6 +274,8 @@ class YDSLearner {
     }
 
     updateDisplay() {
+        if (!this.words || this.words.length === 0) return;
+
         const word = this.words[this.currentIndex];
 
         // Animasyonlu geçiş

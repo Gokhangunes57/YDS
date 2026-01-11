@@ -5,7 +5,14 @@ const sql = neon(process.env.DATABASE_URL);
 export default async function handler(req, res) {
     // Vercel standardizes the method and query
     const method = req.method;
-    const { action, userId } = req.query;
+    const { action, userId: queryUserId } = req.query;
+
+    console.log(`API Request: ${method} ${action} for ${queryUserId}`);
+
+    if (!process.env.DATABASE_URL) {
+        console.error('DATABASE_URL is missing!');
+        return res.status(500).json({ error: 'DATABASE_URL ayarlanmamış' });
+    }
 
     try {
         // Tabloları oluştur (varsa bir şey yapmaz)
@@ -30,15 +37,44 @@ export default async function handler(req, res) {
             );
         `;
 
+        await sql`
+            CREATE TABLE IF NOT EXISTS words (
+                id SERIAL PRIMARY KEY,
+                word TEXT NOT NULL,
+                type TEXT,
+                turkish TEXT,
+                example TEXT,
+                turkish_example TEXT,
+                suffix TEXT,
+                created_at TIMESTAMP WITH TIME ZONE DEFAULT NOW()
+            );
+        `;
+
+        // GET - Tüm kelimeleri al
+        if (method === 'GET' && action === 'getWords') {
+            const result = await sql`
+                SELECT word, type, turkish, example, turkish_example as "turkishExample", suffix 
+                FROM words 
+                ORDER BY word ASC
+            `;
+            return res.status(200).json({
+                success: true,
+                data: result
+            });
+        }
+
         // GET - Kullanıcı ilerlemesini al
         if (method === 'GET' && action === 'getProgress') {
-            if (!userId) {
+            const uid = queryUserId;
+            if (!uid) {
                 return res.status(400).json({ error: 'userId gerekli' });
             }
 
             const result = await sql`
-                SELECT * FROM user_progress WHERE user_id = ${userId}
+                SELECT * FROM user_progress WHERE user_id = ${uid}
             `;
+
+            console.log(`Loaded progress for ${uid}: ${result.length > 0 ? 'Found' : 'New User'}`);
 
             return res.status(200).json({
                 success: true,
@@ -48,22 +84,25 @@ export default async function handler(req, res) {
 
         // POST - İlerleme kaydet
         if (method === 'POST' && action === 'saveProgress') {
-            const { userId, learnedWords, learningWords, bestStreak, currentIndex } = req.body;
+            const { userId: bodyUserId, learnedWords, learningWords, bestStreak, currentIndex } = req.body;
+            const uid = bodyUserId || queryUserId;
 
-            if (!userId) {
+            if (!uid) {
                 return res.status(400).json({ error: 'userId gerekli' });
             }
+
+            console.log(`Saving progress for ${uid}`);
 
             // Upsert - varsa güncelle, yoksa ekle
             await sql`
                 INSERT INTO user_progress (user_id, learned_words, learning_words, best_streak, current_index, updated_at)
-                VALUES (${userId}, ${JSON.stringify(learnedWords)}, ${JSON.stringify(learningWords)}, ${bestStreak}, ${currentIndex}, NOW())
+                VALUES (${uid}, ${JSON.stringify(learnedWords || [])}, ${JSON.stringify(learningWords || [])}, ${bestStreak || 0}, ${currentIndex || 0}, NOW())
                 ON CONFLICT (user_id) 
                 DO UPDATE SET 
-                    learned_words = ${JSON.stringify(learnedWords)},
-                    learning_words = ${JSON.stringify(learningWords)},
-                    best_streak = ${bestStreak},
-                    current_index = ${currentIndex},
+                    learned_words = ${JSON.stringify(learnedWords || [])},
+                    learning_words = ${JSON.stringify(learningWords || [])},
+                    best_streak = ${bestStreak || 0},
+                    current_index = ${currentIndex || 0},
                     updated_at = NOW()
             `;
 
