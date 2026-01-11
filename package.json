@@ -4,13 +4,13 @@
     "description": "YDS Kelime Öğrenme Uygulaması",
     "main": "index.html",
     "scripts": {
-        "dev": "netlify dev",
+        "dev": "vercel dev",
         "build": "echo 'No build needed'"
     },
     "dependencies": {
         "@neondatabase/serverless": "^0.10.4"
     },
     "devDependencies": {
-        "netlify-cli": "^17.0.0"
+        "vercel": "latest"
     }
 }

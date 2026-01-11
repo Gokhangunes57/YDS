@@ -53,7 +53,7 @@ class YDSLearner {
 
         // Login elements
         this.loginBtn = document.getElementById('loginBtn');
-        this.passwordInput = document.getElementById('passwordInput');
+        this.emailInput = document.getElementById('emailInput');
         this.loginError = document.getElementById('loginError');
 
         this.learningBtn = document.getElementById('learningBtn');
@@ -125,7 +125,7 @@ class YDSLearner {
 
         // Login events
         this.loginBtn.addEventListener('click', () => this.handleLogin());
-        this.passwordInput.addEventListener('keypress', (e) => {
+        this.emailInput.addEventListener('keypress', (e) => {
             if (e.key === 'Enter') this.handleLogin();
         });
 
@@ -177,20 +177,37 @@ class YDSLearner {
     }
 
     handleLogin() {
-        const pass = this.passwordInput.value;
-        if (pass === '31097309') {
+        const email = this.emailInput.value.trim().toLowerCase();
+
+        // Basit bir email formatı kontrolü
+        const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+        if (!email || !emailRegex.test(email)) {
+            this.loginError.textContent = 'Lütfen geçerli bir e-posta adresi girin.';
+            this.emailInput.classList.add('wrong-shake');
+            setTimeout(() => this.emailInput.classList.remove('wrong-shake'), 500);
+            return;
+        }
+
+        this.userEmail = email;
+        this.isAuthenticated = true;
+        sessionStorage.setItem('yds_auth_email', email);
+
+        document.getElementById('loginScreen').style.opacity = '0';
+        setTimeout(() => {
+            document.getElementById('loginScreen').style.display = 'none';
+        }, 500);
+
+        this.loadInitialData();
+        this.showToast('Giriş başarılı! Hoş geldin. 🚀');
+    }
+
+    checkAuth() {
+        const savedEmail = sessionStorage.getItem('yds_auth_email');
+        if (savedEmail) {
+            this.userEmail = savedEmail;
             this.isAuthenticated = true;
-            sessionStorage.setItem('yds_auth', 'true');
-            document.getElementById('loginScreen').style.opacity = '0';
-            setTimeout(() => {
-                document.getElementById('loginScreen').style.display = 'none';
-            }, 500);
+            document.getElementById('loginScreen').style.display = 'none';
             this.loadInitialData();
-            this.showToast('Giriş başarılı! Başarılar dileriz. 🚀');
-        } else {
-            this.loginError.textContent = 'Hatalı şifre! Lütfen tekrar deneyin.';
-            this.passwordInput.classList.add('wrong-shake');
-            setTimeout(() => this.passwordInput.classList.remove('wrong-shake'), 500);
         }
     }
 
@@ -565,9 +582,10 @@ class YDSLearner {
 
     // Storage Methods
     async saveProgress() {
-        const userId = 'user_123'; // Sabit bir ID kullanalım şimdilik veya rastgele üretelim
+        if (!this.userEmail) return;
+
         const data = {
-            userId: userId,
+            userId: this.userEmail,
             learnedWords: Array.from(this.learnedWords),
             learningWords: Array.from(this.learningWords),
             bestStreak: this.bestStreak,
@@ -575,7 +593,7 @@ class YDSLearner {
         };
 
         // Yerel yedek
-        localStorage.setItem('yds_progress', JSON.stringify(data));
+        localStorage.setItem(`yds_progress_${this.userEmail}`, JSON.stringify(data));
 
         try {
             const response = await fetch('/api/progress?action=saveProgress', {
@@ -584,24 +602,24 @@ class YDSLearner {
                 body: JSON.stringify(data)
             });
             const result = await response.json();
-            console.log('Progress saved to Neon:', result);
+            console.log('Progress saved to DB:', result);
         } catch (error) {
-            console.error('Error saving progress to Neon:', error);
+            console.error('Error saving progress to DB:', error);
         }
     }
 
     async loadProgress() {
-        const userId = 'user_123';
+        if (!this.userEmail) return;
 
         // Önce yerelden yükle (hızlı açılış için)
-        const localData = localStorage.getItem('yds_progress');
+        const localData = localStorage.getItem(`yds_progress_${this.userEmail}`);
         if (localData) {
             this.applyData(JSON.parse(localData));
         }
 
         // Sonra sunucudan en güncelini çek
         try {
-            const response = await fetch(`/api/progress?action=getProgress&userId=${userId}`);
+            const response = await fetch(`/api/progress?action=getProgress&userId=${this.userEmail}`);
             const result = await response.json();
             if (result.success && result.data) {
                 const dbData = {
@@ -615,7 +633,7 @@ class YDSLearner {
                 this.updateStats();
             }
         } catch (error) {
-            console.error('Error loading progress from Neon:', error);
+            console.error('Error loading progress from DB:', error);
         }
     }
 
