@@ -14,51 +14,15 @@ export default async function handler(req, res) {
 
     console.log(`API Request: ${method} ${action} for ${queryUserId}`);
 
-    if (!process.env.DATABASE_URL) {
-        console.error('DATABASE_URL is missing!');
-        return res.status(500).json({ error: 'DATABASE_URL ayarlanmamış' });
-    }
-
     try {
-        // Tabloları oluştur (varsa bir şey yapmaz)
-        await sql`
-            CREATE TABLE IF NOT EXISTS user_progress (
-                user_id TEXT PRIMARY KEY,
-                learned_words JSONB,
-                learning_words JSONB,
-                best_streak INTEGER,
-                current_index INTEGER,
-                updated_at TIMESTAMP WITH TIME ZONE DEFAULT NOW()
-            );
-        `;
-        await sql`
-            CREATE TABLE IF NOT EXISTS quiz_results (
-                id SERIAL PRIMARY KEY,
-                user_id TEXT,
-                score INTEGER,
-                streak INTEGER,
-                total_questions INTEGER,
-                created_at TIMESTAMP WITH TIME ZONE DEFAULT NOW()
-            );
-        `;
+        // Tablolar zaten oluşturulduğu için her seferinde kontrol etmeye gerek yok.
+        // Bu, Vercel fonksiyonlarının performansını artırır.
 
-        await sql`
-            CREATE TABLE IF NOT EXISTS words (
-                id SERIAL PRIMARY KEY,
-                word TEXT NOT NULL,
-                type TEXT,
-                turkish TEXT,
-                example TEXT,
-                turkish_example TEXT,
-                suffix TEXT,
-                created_at TIMESTAMP WITH TIME ZONE DEFAULT NOW()
-            );
-        `;
 
         // GET - Tüm kelimeleri al
         if (method === 'GET' && action === 'getWords') {
             const result = await sql`
-                SELECT word, type, turkish, example, turkish_example as "turkishExample", suffix 
+                SELECT word, type, turkish, example, turkısh_example as "turkishExample", suffix 
                 FROM words 
                 ORDER BY word ASC
             `;

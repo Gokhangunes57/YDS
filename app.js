@@ -55,12 +55,15 @@ class YDSLearner {
             this.showToast('Kelimeler senkronize ediliyor... ⏳');
             const response = await fetch('/api/progress?action=getWords');
             const result = await response.json();
+            console.log('API Result for getWords:', result);
             if (result.success && result.data) {
                 this.words = result.data;
                 localStorage.setItem('yds_words_cache', JSON.stringify(this.words));
                 console.log(`${this.words.length} kelime DB'den yüklendi ve önbelleğe alındı.`);
                 this.updateDisplay();
                 this.updateStats();
+            } else {
+                console.error('API succeeded but returned no data or success false:', result);
             }
         } catch (error) {
             console.error('Error loading words:', error);
