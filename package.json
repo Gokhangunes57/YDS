@@ -1,6 +1,7 @@
 {
     "name": "yds-kelime-ogrenme",
     "version": "1.0.0",
+    "type": "module",
     "description": "YDS Kelime Öğrenme Uygulaması",
     "main": "index.html",
     "scripts": {

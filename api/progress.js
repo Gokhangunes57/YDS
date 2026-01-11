@@ -1,8 +1,13 @@
 import { neon } from '@neondatabase/serverless';
 
-const sql = neon(process.env.DATABASE_URL);
-
 export default async function handler(req, res) {
+    if (!process.env.DATABASE_URL) {
+        console.error('DATABASE_URL is missing!');
+        return res.status(500).json({ error: 'DATABASE_URL environment variable is not set in Vercel.' });
+    }
+
+    const sql = neon(process.env.DATABASE_URL);
+
     // Vercel standardizes the method and query
     const method = req.method;
     const { action, userId: queryUserId } = req.query;

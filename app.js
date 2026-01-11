@@ -15,9 +15,9 @@ class YDSLearner {
         this.autoPlay = false;
         this.isAuthenticated = false;
 
-        this.checkAuth();
         this.initElements();
         this.bindEvents();
+        this.checkAuth();
     }
 
     // İlk checkAuth kaldırıldı, aşağıdakini kullanıyoruz.
@@ -204,22 +204,33 @@ class YDSLearner {
         this.isAuthenticated = true;
         sessionStorage.setItem('yds_auth_email', email);
 
-        // UI geçişi
-        document.getElementById('loginScreen').style.opacity = '0';
-        setTimeout(() => {
-            document.getElementById('loginScreen').style.display = 'none';
-        }, 500);
+        // UI geçişi ve yükleme başlasın
+        this.loginBtn.disabled = true;
+        this.loginBtn.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Yükleniyor...';
 
-        // Verileri yükle ve gerekirse ilk kaydı yap
-        await this.loadInitialData();
+        try {
+            // Verileri yükle 
+            await this.loadInitialData();
 
-        // Yeni bir kullanıcı ise DB'ye boş ilerleme kaydet ki e-posta görünsün
-        await this.saveProgress();
+            // UI geçişi
+            document.getElementById('loginScreen').style.opacity = '0';
+            setTimeout(() => {
+                document.getElementById('loginScreen').style.display = 'none';
+            }, 500);
 
-        this.showToast('Giriş başarılı! Hoş geldin. 🚀');
+            // İlk kaydı yap (yeni kullanıcı tespiti için)
+            this.saveProgress();
+
+            this.showToast('Giriş başarılı! Hoş geldin. 🚀');
+        } catch (error) {
+            console.error('Login error:', error);
+            this.loginError.textContent = 'Giriş yapılamadı. Lütfen internetinizi kontrol edin.';
+            this.loginBtn.disabled = false;
+            this.loginBtn.textContent = 'Giriş Yap / Kaydol';
+        }
     }
 
-    checkAuth() {
+    async checkAuth() {
         const savedEmail = sessionStorage.getItem('yds_auth_email');
         if (savedEmail) {
             this.userEmail = savedEmail;
