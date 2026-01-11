@@ -285,7 +285,11 @@ class YDSLearner {
     }
 
     updateDisplay() {
-        if (!this.words || this.words.length === 0) return;
+        if (!this.words || this.words.length === 0) {
+            this.englishWord.textContent = "Yükleniyor...";
+            this.turkishMeaning.textContent = "Kelimeler veritabanından çekiliyor...";
+            return;
+        }
 
         const word = this.words[this.currentIndex];
 
@@ -319,12 +323,14 @@ class YDSLearner {
     }
 
     nextWord() {
+        if (!this.words || this.words.length === 0) return;
         this.currentIndex = (this.currentIndex + 1) % this.words.length;
         this.updateDisplay();
         this.updateFlashcard();
     }
 
     prevWord() {
+        if (!this.words || this.words.length === 0) return;
         this.currentIndex = (this.currentIndex - 1 + this.words.length) % this.words.length;
         this.updateDisplay();
         this.updateFlashcard();
@@ -342,6 +348,7 @@ class YDSLearner {
     }
 
     markAsKnown() {
+        if (!this.words || this.words.length === 0) return;
         const word = this.words[this.currentIndex].word;
         this.learnedWords.add(word);
         this.learningWords.delete(word);
@@ -354,6 +361,7 @@ class YDSLearner {
     }
 
     markAsLearning() {
+        if (!this.words || this.words.length === 0) return;
         const word = this.words[this.currentIndex].word;
         this.learningWords.add(word);
         this.learnedWords.delete(word);
@@ -565,7 +573,8 @@ class YDSLearner {
     updateStats() {
         const learned = this.learnedWords.size;
         const learning = this.learningWords.size;
-        const remaining = this.words.length - learned - learning;
+        const total = this.words.length || 1; // 0'a bölmeyi engelle
+        const remaining = this.words.length ? (this.words.length - learned - learning) : '...';
 
         this.learnedCountEl.textContent = learned;
         this.learningCountEl.textContent = learning;
@@ -573,8 +582,8 @@ class YDSLearner {
         this.bestStreakEl.textContent = this.bestStreak;
 
         // Grafik
-        const learnedPercent = (learned / this.words.length) * 100;
-        const learningPercent = (learning / this.words.length) * 100;
+        const learnedPercent = (learned / total) * 100;
+        const learningPercent = (learning / total) * 100;
 
         this.chartLearned.style.width = `${learnedPercent}%`;
         this.chartLearning.style.width = `${learningPercent}%`;
@@ -593,7 +602,15 @@ class YDSLearner {
 
     updateProgressRing() {
         const learned = this.learnedWords.size;
-        const percent = Math.round((learned / this.words.length) * 100);
+        const total = this.words.length || 0;
+
+        if (total === 0) {
+            this.progressRing.style.strokeDashoffset = 100;
+            this.progressPercent.textContent = `0%`;
+            return;
+        }
+
+        const percent = Math.round((learned / total) * 100);
         const offset = 100 - percent;
 
         this.progressRing.style.strokeDashoffset = offset;
