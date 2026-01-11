@@ -13,10 +13,23 @@ class YDSLearner {
         this.quizQuestionIndex = 0;
         this.quizQuestions = [];
         this.autoPlay = false;
+        this.isAuthenticated = false;
 
-        this.loadProgress();
+        this.checkAuth();
         this.initElements();
         this.bindEvents();
+    }
+
+    checkAuth() {
+        if (sessionStorage.getItem('yds_auth') === 'true') {
+            this.isAuthenticated = true;
+            document.getElementById('loginScreen').style.display = 'none';
+            this.loadInitialData();
+        }
+    }
+
+    loadInitialData() {
+        this.loadProgress();
         this.updateDisplay();
         this.updateStats();
     }
@@ -32,9 +45,17 @@ class YDSLearner {
         this.turkishMeaning = document.getElementById('turkishMeaning');
         this.wordType = document.getElementById('wordType');
         this.exampleSentence = document.getElementById('exampleSentence');
+        this.turkishExample = document.getElementById('turkishExample');
         this.speakBtn = document.getElementById('speakBtn');
         this.speakExampleBtn = document.getElementById('speakExampleBtn');
+        this.wordExampleContainer = document.querySelector('.word-example');
         this.knowBtn = document.getElementById('knowBtn');
+
+        // Login elements
+        this.loginBtn = document.getElementById('loginBtn');
+        this.passwordInput = document.getElementById('passwordInput');
+        this.loginError = document.getElementById('loginError');
+
         this.learningBtn = document.getElementById('learningBtn');
         this.prevWordBtn = document.getElementById('prevWord');
         this.nextWordBtn = document.getElementById('nextWord');
@@ -94,7 +115,20 @@ class YDSLearner {
 
         // Learn Tab
         this.speakBtn.addEventListener('click', () => this.speak(this.words[this.currentIndex].word));
-        this.speakExampleBtn.addEventListener('click', () => this.speak(this.words[this.currentIndex].example));
+        this.speakExampleBtn.addEventListener('click', (e) => {
+            e.stopPropagation();
+            this.speak(this.words[this.currentIndex].example);
+        });
+        this.wordExampleContainer.addEventListener('click', () => {
+            this.wordExampleContainer.classList.toggle('revealed');
+        });
+
+        // Login events
+        this.loginBtn.addEventListener('click', () => this.handleLogin());
+        this.passwordInput.addEventListener('keypress', (e) => {
+            if (e.key === 'Enter') this.handleLogin();
+        });
+
         this.knowBtn.addEventListener('click', () => this.markAsKnown());
         this.learningBtn.addEventListener('click', () => this.markAsLearning());
         this.prevWordBtn.addEventListener('click', () => this.prevWord());
@@ -142,8 +176,26 @@ class YDSLearner {
         });
     }
 
+    handleLogin() {
+        const pass = this.passwordInput.value;
+        if (pass === '31097309') {
+            this.isAuthenticated = true;
+            sessionStorage.setItem('yds_auth', 'true');
+            document.getElementById('loginScreen').style.opacity = '0';
+            setTimeout(() => {
+                document.getElementById('loginScreen').style.display = 'none';
+            }, 500);
+            this.loadInitialData();
+            this.showToast('Giriş başarılı! Başarılar dileriz. 🚀');
+        } else {
+            this.loginError.textContent = 'Hatalı şifre! Lütfen tekrar deneyin.';
+            this.passwordInput.classList.add('wrong-shake');
+            setTimeout(() => this.passwordInput.classList.remove('wrong-shake'), 500);
+        }
+    }
+
     switchTab(tabId) {
-        this.navBtns.forEach(btn => btn.classList.remove('active'));
+        if (!this.isAuthenticated) return;
         this.tabContents.forEach(content => content.classList.remove('active'));
 
         document.querySelector(`[data-tab="${tabId}"]`).classList.add('active');
@@ -198,6 +250,10 @@ class YDSLearner {
             this.turkishMeaning.textContent = word.turkish;
             this.wordType.textContent = word.type;
             this.exampleSentence.textContent = `"${word.example}"`;
+            this.turkishExample.textContent = `"${word.turkishExample}"`;
+
+            // Sıfırla reveal durumunu
+            this.wordExampleContainer.classList.remove('revealed');
 
             // Kelime numarası
             document.querySelector('.word-number').textContent = `${this.currentIndex + 1} / ${this.words.length}`;
@@ -508,25 +564,66 @@ class YDSLearner {
     }
 
     // Storage Methods
-    saveProgress() {
+    async saveProgress() {
+        const userId = 'user_123'; // Sabit bir ID kullanalım şimdilik veya rastgele üretelim
         const data = {
-            learned: Array.from(this.learnedWords),
-            learning: Array.from(this.learningWords),
+            userId: userId,
+            learnedWords: Array.from(this.learnedWords),
+            learningWords: Array.from(this.learningWords),
             bestStreak: this.bestStreak,
             currentIndex: this.currentIndex
         };
+
+        // Yerel yedek
         localStorage.setItem('yds_progress', JSON.stringify(data));
+
+        try {
+            const response = await fetch('/api/progress?action=saveProgress', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify(data)
+            });
+            const result = await response.json();
+            console.log('Progress saved to Neon:', result);
+        } catch (error) {
+            console.error('Error saving progress to Neon:', error);
+        }
     }
 
-    loadProgress() {
-        const data = localStorage.getItem('yds_progress');
-        if (data) {
-            const parsed = JSON.parse(data);
-            this.learnedWords = new Set(parsed.learned || []);
-            this.learningWords = new Set(parsed.learning || []);
-            this.bestStreak = parsed.bestStreak || 0;
-            this.currentIndex = parsed.currentIndex || 0;
+    async loadProgress() {
+        const userId = 'user_123';
+
+        // Önce yerelden yükle (hızlı açılış için)
+        const localData = localStorage.getItem('yds_progress');
+        if (localData) {
+            this.applyData(JSON.parse(localData));
         }
+
+        // Sonra sunucudan en güncelini çek
+        try {
+            const response = await fetch(`/api/progress?action=getProgress&userId=${userId}`);
+            const result = await response.json();
+            if (result.success && result.data) {
+                const dbData = {
+                    learned: result.data.learned_words,
+                    learning: result.data.learning_words,
+                    bestStreak: result.data.best_streak,
+                    currentIndex: result.data.current_index
+                };
+                this.applyData(dbData);
+                this.updateDisplay();
+                this.updateStats();
+            }
+        } catch (error) {
+            console.error('Error loading progress from Neon:', error);
+        }
+    }
+
+    applyData(data) {
+        this.learnedWords = new Set(data.learned || []);
+        this.learningWords = new Set(data.learning || []);
+        this.bestStreak = data.bestStreak || 0;
+        this.currentIndex = data.currentIndex || 0;
     }
 
     // Utility Methods

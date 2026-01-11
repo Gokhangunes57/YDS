@@ -1,0 +1,16 @@
+{
+    "name": "yds-kelime-ogrenme",
+    "version": "1.0.0",
+    "description": "YDS Kelime Öğrenme Uygulaması",
+    "main": "index.html",
+    "scripts": {
+        "dev": "netlify dev",
+        "build": "echo 'No build needed'"
+    },
+    "dependencies": {
+        "@neondatabase/serverless": "^0.10.4"
+    },
+    "devDependencies": {
+        "netlify-cli": "^17.0.0"
+    }
+}
