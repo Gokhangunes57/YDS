@@ -21,14 +21,22 @@ export default async function handler(req, res) {
 
         // GET - Tüm kelimeleri al
         if (method === 'GET' && action === 'getWords') {
-            const result = await sql`
-                SELECT word, type, turkish, example, turkısh_example as "turkishExample", suffix 
-                FROM words 
-                ORDER BY word ASC
-            `;
+            const words = await sql`SELECT * FROM words ORDER BY word ASC`;
+
+            // Kolon isimlerindeki i/ı farklarını normalize et
+            const normalizedWords = words.map(w => ({
+                word: w.word,
+                type: w.type,
+                turkish: w.turkish,
+                example: w.example,
+                turkishExample: w.turkish_example || w.turkısh_example || w.turkishExample,
+                suffix: w.suffix
+            }));
+
+            console.log(`Successfully fetched ${normalizedWords.length} words.`);
             return res.status(200).json({
                 success: true,
-                data: result
+                data: normalizedWords
             });
         }
 

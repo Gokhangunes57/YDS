@@ -23,8 +23,19 @@ class YDSLearner {
     // İlk checkAuth kaldırıldı, aşağıdakini kullanıyoruz.
 
     async loadInitialData() {
-        await this.loadWords();
-        await this.loadProgress();
+        // Kelimeleri ve ilerlemeyi birbirinden bağımsız yükle ki biri hata verirse diğeri çalışsın
+        try {
+            await this.loadWords();
+        } catch (e) {
+            console.error("Words load failed", e);
+        }
+
+        try {
+            await this.loadProgress();
+        } catch (e) {
+            console.error("Progress load failed", e);
+        }
+
         this.updateDisplay();
         this.updateStats();
     }
@@ -54,6 +65,10 @@ class YDSLearner {
         try {
             this.showToast('Kelimeler senkronize ediliyor... ⏳');
             const response = await fetch('/api/progress?action=getWords');
+            if (!response.ok) {
+                const errData = await response.json();
+                throw new Error(errData.details || errData.error || 'Sunucu hatası');
+            }
             const result = await response.json();
             console.log('API Result for getWords:', result);
             if (result.success && result.data) {
@@ -260,12 +275,13 @@ class YDSLearner {
             }, 500);
 
             // İlk kaydı yap (yeni kullanıcı tespiti için)
-            this.saveProgress();
+            // Bu kısım hata verse bile giriş engellenmemeli
+            this.saveProgress().catch(e => console.error("Initial save failed", e));
 
             this.showToast('Giriş başarılı! Hoş geldin. 🚀');
         } catch (error) {
-            console.error('Login error:', error);
-            this.loginError.textContent = 'Giriş yapılamadı. Lütfen internetinizi kontrol edin.';
+            console.error('Login flow error:', error);
+            this.loginError.textContent = 'Veriler alınırken bir sorun oluştu. Lütfen tekrar deneyin.';
             this.loginBtn.disabled = false;
             this.loginBtn.textContent = 'Giriş Yap / Kaydol';
         }
