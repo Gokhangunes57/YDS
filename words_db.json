@@ -4998,5 +4998,2595 @@
     "example": "The government decided to reinstate the old laws.",
     "turkishExample": "Hükümet eski yasaları yeniden yürürlüğe koymaya karar verdi.",
     "suffix": "ate"
+  },
+  {
+    "word": "Trifling",
+    "type": "adjective",
+    "turkish": "Önemsiz, ufak tefek, değersiz",
+    "example": "Don't waste your time on such trifling matters.",
+    "turkishExample": "Zamanınızı böyle önemsiz meselelerle harcamayın."
+  },
+  {
+    "word": "Abundant",
+    "type": "adjective",
+    "turkish": "Bol, bereketli, çok",
+    "example": "The area is famous for its abundant wildlife.",
+    "turkishExample": "Bölge, bol yaban hayatıyla ünlüdür."
+  },
+  {
+    "word": "Grateful",
+    "type": "adjective",
+    "turkish": "Minnettar, müteşekkir",
+    "example": "I am extremely grateful for all your help.",
+    "turkishExample": "Tüm yardımınız için son derece minnettarım."
+  },
+  {
+    "word": "Imperative",
+    "type": "adjective",
+    "turkish": "Zorunlu, mecburi, çok önemli",
+    "example": "It is imperative that these changes are implemented immediately.",
+    "turkishExample": "bu değişikliklerin derhal uygulanması zorunludur."
+  },
+  {
+    "word": "Dreadful",
+    "type": "adjective",
+    "turkish": "Korkunç, berbat, dehşet verici",
+    "example": "The weather was absolutely dreadful during our holiday.",
+    "turkishExample": "Tatilimiz boyunca hava kesinlikle berbattı."
+  },
+  {
+    "word": "Flawless",
+    "type": "adjective",
+    "turkish": "Kusursuz, hatasız",
+    "example": "She gave a flawless performance on the piano.",
+    "turkishExample": "Piyanoda kusursuz bir performans sergiledi."
+  },
+  {
+    "word": "Hostile",
+    "type": "adjective",
+    "turkish": "Düşmanca, saldırgan, elverişsiz",
+    "example": "The desert is a hostile environment for most plants.",
+    "turkishExample": "Çöl, çoğu bitki için elverişsiz (düşman) bir ortamdır."
+  },
+  {
+    "word": "Inevitable",
+    "type": "adjective",
+    "turkish": "Kaçınılmaz, beklenen",
+    "example": "Change is an inevitable part of life.",
+    "turkishExample": "Değişim, hayatın kaçınılmaz bir parçasıdır."
+  },
+  {
+    "word": "Keen",
+    "type": "adjective",
+    "turkish": "Keskin, hevesli, düşkün",
+    "example": "He is a keen student of history.",
+    "turkishExample": "O, hevesli bir tarih öğrencisidir."
+  },
+  {
+    "word": "Mandatory",
+    "type": "adjective",
+    "turkish": "Zorunlu, mecburi",
+    "example": "Wearing seatbelts is mandatory in most countries.",
+    "turkishExample": "Çoğu ülkede emniyet kemeri takmak zorunludur."
+  },
+  {
+    "word": "Negligible",
+    "type": "adjective",
+    "turkish": "İhmal edilebilir, önemsiz",
+    "example": "The cost of the repairs was negligible.",
+    "turkishExample": "Onarım maliyeti ihmal edilebilir düzeydeydi."
+  },
+  {
+    "word": "Obscure",
+    "type": "adjective",
+    "turkish": "Belirsiz, anlaşılması güç, tanınmamış",
+    "example": "The origin of the tradition remains obscure.",
+    "turkishExample": "Geleneğin kökeni belirsizliğini koruyor."
+  },
+  {
+    "word": "Precise",
+    "type": "adjective",
+    "turkish": "Kesin, tam, titiz",
+    "example": "We need precise measurements for the construction.",
+    "turkishExample": "İnşaat için kesin ölçümlere ihtiyacımız var."
+  },
+  {
+    "word": "Quaint",
+    "type": "adjective",
+    "turkish": "Antika görünümlü, değişik ve çekici, eski moda",
+    "example": "They stayed in a quaint little cottage in the mountains.",
+    "turkishExample": "Dağlarda şirin ve eski moda küçük bir kulübede kaldılar."
+  },
+  {
+    "word": "Reluctant",
+    "type": "adjective",
+    "turkish": "İsteksiz, gönülsüz",
+    "example": "She was reluctant to lend him the money.",
+    "turkishExample": "Ona borç para verme konusunda isteksizdi."
+  },
+  {
+    "word": "Sovereign",
+    "type": "noun",
+    "turkish": "Hükümdar, egemen güç, bağımsız devlet",
+    "example": "The nation is a sovereign state.",
+    "turnishExample": "Ulus, bağımsız (egemen) bir devlettir."
+  },
+  {
+    "word": "Tangled",
+    "type": "adjective",
+    "turkish": "Dolaşmış, karış karış, karmaşık",
+    "example": "She spent hours trying to comb out her tangled hair.",
+    "turkishExample": "Dolaşmış saçlarını tarayarak açmak için saatlerini harcadı."
+  },
+  {
+    "word": "Unanimous",
+    "type": "adjective",
+    "turkish": "Oy birliğiyle seçilen, hemfikir",
+    "example": "The decision was unanimous.",
+    "turkishExample": "Karar oy birliğiyle alındı."
+  },
+  {
+    "word": "Vague",
+    "type": "adjective",
+    "turkish": "Belirsiz, net olmayan, hayal meyal",
+    "example": "I only have a vague memory of the incident.",
+    "turkishExample": "Olayla ilgili sadece hayal meyal bir hatıram var."
+  },
+  {
+    "word": "Wary",
+    "type": "adjective",
+    "turkish": "Tedbirli, uyanık, sakınan",
+    "example": "Be wary of strangers offering gifts.",
+    "turkishExample": "Hediye teklif eden yabancılara karşı tedbirli olun."
+  },
+  {
+    "word": "Yearn",
+    "type": "verb",
+    "turkish": "Çok istemek, hasret çekmek, özlemek",
+    "example": "She yearned to return to her homeland.",
+    "turkishExample": "Vatanına dönmeyi çok istiyordu (hasretini çekiyordu)."
+  },
+  {
+    "word": "Zealous",
+    "type": "adjective",
+    "turkish": "Hevesli, gayretli, ateşli",
+    "example": "He is a zealous supporter of environmental causes.",
+    "turkishExample": "Çevresel amaçların ateşli bir destekçisidir."
+  },
+  {
+    "word": "Appalling",
+    "type": "adjective",
+    "turkish": "Korkunç, dehşet verici, çok kötü",
+    "example": "The conditions in the prison were appalling.",
+    "turkishExample": "Hapishanedeki koşullar dehşet vericiydi."
+  },
+  {
+    "word": "Benevolent",
+    "type": "adjective",
+    "turkish": "Hayırsever, iyiliksever",
+    "example": "The charity was supported by a benevolent donor.",
+    "turkishExample": "Hayır kurumu, hayırsever bir bağışçı tarafından desteklendi."
+  },
+  {
+    "word": "Candor",
+    "type": "noun",
+    "turkish": "Açık sözlülük, samimiyet, dürüstlük",
+    "example": "I appreciate your candor in this matter.",
+    "turkishExample": "Bu meseledeki açık sözlülüğünü takdir ediyorum."
+  },
+  {
+    "word": "Devoid",
+    "type": "adjective",
+    "turkish": "-den yoksun, mahrum",
+    "example": "The room was completely devoid of furniture.",
+    "turkishExample": "Oda tamamen mobilyadan yoksundu."
+  },
+  {
+    "word": "Eloquent",
+    "type": "adjective",
+    "turkish": "Güzel ve etkili konuşan, anlamlı",
+    "example": "He made an eloquent speech at the wedding.",
+    "turkishExample": "Düğünde etkileyici bir konuşma yaptı."
+  },
+  {
+    "word": "Frugal",
+    "type": "adjective",
+    "turkish": "Tutumlu, idareli",
+    "example": "He has a frugal lifestyle despite his wealth.",
+    "turkishExample": "Zenginliğine rağmen tutumlu bir yaşam tarzı var."
+  },
+  {
+    "word": "Gullible",
+    "type": "adjective",
+    "turkish": "Saf, kolay aldatılan",
+    "example": "They sell expensive products to gullible tourists.",
+    "turkishExample": "Saf turistlere pahalı ürünler satıyorlar."
+  },
+  {
+    "word": "Humble",
+    "type": "adjective",
+    "turkish": "Alçakgönüllü, mütevazı",
+    "example": "He is a humble man despite his great success.",
+    "turkishExample": "Büyük başarısına rağmen mütevazı bir adamdır."
+  },
+  {
+    "word": "Implicit",
+    "type": "adjective",
+    "turkish": "Dolaylı, üstü kapalı, tam, kesin",
+    "example": "Trust is implicit in our friendship.",
+    "turkishExample": "Dostluğumuzda güven tamdır (üstü kapalı mevcuttur)."
+  },
+  {
+    "word": "Jovial",
+    "type": "adjective",
+    "turkish": "Neşeli, şen, keyifli",
+    "example": "He was in a jovial mood after the party.",
+    "turkishExample": "Partiden sonra neşeli bir ruh halindeydi."
+  },
+  {
+    "word": "Kinetic",
+    "type": "adjective",
+    "turkish": "Hareketli, kinetik",
+    "example": "Moving objects have kinetic energy.",
+    "turkishExample": "Hareket eden nesneler kinetik enerjiye sahiptir."
+  },
+  {
+    "word": "Lucrative",
+    "type": "adjective",
+    "turkish": "Kazançlı, karlı",
+    "example": "The company has a lucrative contract with the government.",
+    "turkishExample": "Şirketin hükümetle karlı bir sözleşmesi var."
+  },
+  {
+    "word": "Meticulous",
+    "type": "adjective",
+    "turkish": "Titiz, kılı kırk yaran",
+    "example": "She is very meticulous about her work.",
+    "turkishExample": "İşi konusunda çok titizdir."
+  },
+  {
+    "word": "Novel",
+    "type": "adjective",
+    "turkish": "Yeni, alışılmamış, orijinal",
+    "example": "The architect came up with a novel design for the building.",
+    "turkishExample": "Mimar bina için alışılmamış bir tasarım geliştirdi."
+  },
+  {
+    "word": "Ominous",
+    "type": "adjective",
+    "turkish": "Uğursuz, tehdit edici, kaygı verici",
+    "example": "The dark clouds were an ominous sign of a storm.",
+    "turkishExample": "Koyu bulutlar fırtınanın uğursuz (tehdit edici) bir belirtisiydi."
+  },
+  {
+    "word": "Pensive",
+    "type": "adjective",
+    "turkish": "Düşünceli, dalgın, mahzun",
+    "example": "She looked pensive as she stared out the window.",
+    "turkishExample": "Pencereden dışarı bakarken düşünceli görünüyordu."
+  },
+  {
+    "word": "Quick-witted",
+    "type": "adjective",
+    "turkish": "Hazırcevap, zeki",
+    "example": "A quick-witted person can always find a solution.",
+    "turkishExample": "Zeki (hazırcevap) bir insan her zaman bir çözüm bulabilir."
+  },
+  {
+    "word": "Resilient",
+    "type": "adjective",
+    "turkish": "Dayanıklı, çabuk toparlanan, esnek",
+    "example": "Children are remarkably resilient to life's setbacks.",
+    "turkishExample": "Çocuklar hayatın aksiliklerine karşı olağanüstü derecede dayanıklıdır."
+  },
+  {
+    "word": "Serene",
+    "type": "adjective",
+    "turkish": "Huzurlu, sakin, dingin",
+    "example": "The lake looked beautiful and serene in the morning light.",
+    "turkishExample": "Göl, sabah ışığında güzel ve huzurlu görünüyordu."
+  },
+  {
+    "word": "Timid",
+    "type": "adjective",
+    "turkish": "Ürkek, çekingen, utangaç",
+    "example": "He's too timid to ask her for a date.",
+    "turkishExample": "Ona randevu teklif edemeyecek kadar çekingen."
+  },
+  {
+    "word": "Ubiquitous",
+    "type": "adjective",
+    "turkish": "Her yerde bulunan, yaygın",
+    "example": "The mobile phone has become ubiquitous in our daily lives.",
+    "turkishExample": "Cep telefonu günlük hayatımızda her yerde bulunan bir hale geldi."
+  },
+  {
+    "word": "Vibrant",
+    "type": "adjective",
+    "turkish": "Canlı, hareketli, titreyen",
+    "example": "The city is famous for its vibrant nightlife.",
+    "turkishExample": "Şehir, canlı gece hayatıyla ünlüdür."
+  },
+  {
+    "word": "Witty",
+    "type": "adjective",
+    "turkish": "Nüktedan, zeki ve komik",
+    "example": "He is known for his witty remarks.",
+    "turkishExample": "Nüktedan açıklamalarıyla tanınır."
+  },
+  {
+    "word": "Zen",
+    "type": "adjective",
+    "turkish": "Sakin, huzurlu, zihnen rahat",
+    "example": "She tried to stay zen during the stressful meeting.",
+    "turkishExample": "Stresli toplantı sırasında sakin kalmaya çalıştı."
+  },
+  {
+    "word": "Consecutive",
+    "type": "adjective",
+    "turkish": "Ardışık, birbirini izleyen",
+    "example": "It rained for three consecutive days.",
+    "turkishExample": "Üç gün üst üste (ardışık) yağmur yağdı."
+  },
+  {
+    "word": "Accordingly",
+    "type": "adverb",
+    "turkish": "Buna göre, sonuç olarak, uygun şekilde",
+    "example": "Please inform us of your decision and we will act accordingly.",
+    "turkishExample": "Lütfen bize kararınızı bildirin; biz de buna göre hareket edeceğiz."
+  },
+  {
+    "word": "Secular",
+    "type": "adjective",
+    "turkish": "Laik, dünyevi",
+    "example": "The country has a secular education system.",
+    "turkishExample": "Ülkenin laik bir eğitim sistemi var."
+  },
+  {
+    "word": "Devout",
+    "type": "adjective",
+    "turkish": "Dindar, samimi, içten",
+    "example": "The family were devout Catholics.",
+    "turkishExample": "Aile dindar Katoliklerdi."
+  },
+  {
+    "word": "Exacerbate",
+    "type": "verb",
+    "turkish": "Kötüleştirmek, şiddetlendirmek",
+    "example": "The bad news exacerbated the already tense situation.",
+    "turkishExample": "Kötü haber zaten gergin olan durumu daha da kötüleştirdi."
+  },
+  {
+    "word": "Prudent",
+    "type": "adjective",
+    "turkish": "İhtiyatlı, sağduyulu",
+    "example": "It would be prudent to save some money for the future.",
+    "turkishExample": "Gelecek için biraz para biriktirmek ihtiyatlı (sağduyulu) olacaktır."
+  },
+  {
+    "word": "Viable",
+    "type": "adjective",
+    "turkish": "Uygulanabilir, ayakta kalabilir, yaşayabilir",
+    "example": "The committee is looking for a viable solution to the problem.",
+    "turkishExample": "Komite sorun için uygulanabilir bir çözüm arıyor."
+  },
+  {
+    "word": "Versatile",
+    "type": "adjective",
+    "turkish": "Çok yönlü, elinden her iş gelen",
+    "example": "He is a versatile actor who can play many different roles.",
+    "turkishExample": "Pek çok farklı rolü oynayabilen çok yönlü bir aktördür."
+  },
+  {
+    "word": "Trigger",
+    "type": "verb",
+    "turkish": "Tetiklemek, neden olmak",
+    "example": "The protest triggered a major political crisis.",
+    "turkishExample": "Protesto büyük bir siyasi krizi tetikledi."
+  },
+  {
+    "word": "Tangible",
+    "type": "adjective",
+    "turkish": "Somut, elle tutulur, hissedilir",
+    "example": "The research has produced no tangible results so far.",
+    "turkishExample": "Araştırma şu ana kadar somut bir sonuç üretmedi."
+  },
+  {
+    "word": "Scarcity",
+    "type": "noun",
+    "turkish": "Kıtlık, azlık",
+    "example": "The scarcity of resources is a major problem in many countries.",
+    "turkishExample": "Kaynakların kıtlığı pek çok ülkede büyük bir sorundur."
+  },
+  {
+    "word": "Refined",
+    "type": "adjective",
+    "turkish": "Arıtılmış, nazik, kibar, rafine",
+    "example": "His manners were refined and elegant.",
+    "turkishExample": "Tavırları nazik ve zarifti."
+  },
+  {
+    "word": "Plausible",
+    "type": "adjective",
+    "turkish": "Mantıklı, makul, akla yatkın",
+    "example": "His explanation sounds plausible, but I'm still not sure.",
+    "turkishExample": "Açıklaması mantıklı geliyor ama hala emin değilim."
+  },
+  {
+    "word": "Oblivious",
+    "type": "adjective",
+    "turkish": "Habersiz, farkında olmayan",
+    "example": "He was completely oblivious to what was happening around him.",
+    "turkishExample": "Çevresinde olup bitenlerden tamamen habersizdi."
+  },
+  {
+    "word": "Lethal",
+    "type": "adjective",
+    "turkish": "Öldürücü, ölümcül",
+    "example": "The poison is lethal even in very small amounts.",
+    "turkishExample": "Zehir çok küçük miktarlarda bile öldürücüdür."
+  },
+  {
+    "word": "Genuine",
+    "type": "adjective",
+    "turkish": "Gerçek, hakiki, içten",
+    "example": "Is that a genuine diamond?",
+    "turkishExample": "O gerçek (hakiki) bir elmas mı?"
+  },
+  {
+    "word": "Fragile",
+    "type": "adjective",
+    "turkish": "Hassas, kırılgan",
+    "example": "The box is full of fragile items.",
+    "turkishExample": "Kutu kırılgan (hassas) eşyalarla dolu."
+  },
+  {
+    "word": "Deter",
+    "type": "verb",
+    "turkish": "Caydırmak, vazgeçirmek",
+    "example": "The security cameras are designed to deter criminals.",
+    "turkishExample": "Güvenlik kameraları suçluları caydırmak için tasarlanmıştır."
+  },
+  {
+    "word": "Collaborate",
+    "type": "verb",
+    "turkish": "İş birliği yapmak",
+    "example": "The two companies decided to collaborate on the project.",
+    "turkishExample": "İki şirket projede iş birliği yapmaya karar verdi."
+  },
+  {
+    "word": "Authentic",
+    "type": "adjective",
+    "turkish": "Otantik, gerçek, güvenilir",
+    "example": "This is an authentic painting by Picasso.",
+    "turkishExample": "Bu, Picasso'nun orijinal (otantik) bir tablosudur."
+  },
+  {
+    "word": "Ambiguous",
+    "type": "adjective",
+    "turkish": "Belirsiz, iki anlamlı",
+    "example": "The wording of the agreement is ambiguous.",
+    "turkishExample": "Anlaşmanın dili belirsiz (karmaşık)."
+  },
+  {
+    "word": "Widespread",
+    "type": "adjective",
+    "turkish": "Yaygın, geniş çaplı",
+    "example": "There is widespread concern about the environmental crisis.",
+    "turkishExample": "Çevre kriziyle ilgili yaygın bir endişe var."
+  },
+  {
+    "word": "Substantial",
+    "type": "adjective",
+    "turkish": "Önemli, büyük, varlıklı",
+    "example": "The project will require a substantial amount of money.",
+    "turkishExample": "Proje önemli (büyük) miktarda para gerektirecek."
+  },
+  {
+    "word": "Peculiar",
+    "type": "adjective",
+    "turkish": "Tuhaf, garip, kendine özgü",
+    "example": "The smell in the room was very peculiar.",
+    "turkishExample": "Odadaki koku çok tuhaftı (garipti)."
+  },
+  {
+    "word": "Nominal",
+    "type": "adjective",
+    "turkish": "Sembolik, ismen mevcut olan, çok küçük",
+    "example": "The company charged a nominal fee for the service.",
+    "turkishExample": "Şirket hizmet için sembolik (nominal) bir ücret talep etti."
+  },
+  {
+    "word": "Mediate",
+    "type": "verb",
+    "turkish": "Arabuluculuk yapmak",
+    "example": "The UN tried to mediate between the two sides.",
+    "turkishExample": "BM her iki taraf arasında arabuluculuk yapmaya çalıştı."
+  },
+  {
+    "word": "Lament",
+    "type": "verb",
+    "turkish": "Yas tutmak, kederlenmek, pişmanlığını dile getirmek",
+    "example": "Many people lament the loss of traditional culture.",
+    "turkishExample": "Pek çok insan geleneksel kültürün kaybından dolayı kederleniyor."
+  },
+  {
+    "word": "Inherent",
+    "type": "adjective",
+    "turkish": "Doğasında olan, doğuştan gelen",
+    "example": "There are inherent risks in any business venture.",
+    "turkishExample": "Herhangi bir ticari girişimde doğasında olan (kaçınılmaz) riskler vardır."
+  },
+  {
+    "word": "Greed",
+    "type": "noun",
+    "turkish": "Açgözlülük, hırs",
+    "example": "The financial crisis was caused by corporate greed.",
+    "turkishExample": "Mali krize şirketlerin açgözlülüğü neden oldu."
+  },
+  {
+    "word": "Fluid",
+    "type": "adjective",
+    "turkish": "Sıvı, akışkan, değişken",
+    "example": "The political situation is still very fluid.",
+    "turkishExample": "Siyasi durum hala çok değişken (akışkan)."
+  },
+  {
+    "word": "Compatible",
+    "type": "adjective",
+    "turkish": "Uyumlu, bağdaşan",
+    "example": "These Two systems are not compatible with each other.",
+    "turkishExample": "Bu iki sistem birbiriyle uyumlu değil."
+  },
+  {
+    "word": "Implausible",
+    "type": "adjective",
+    "turkish": "İnanılmaz, mantıksız, akla yatkın olmayan",
+    "example": "The explanation sounds completely implausible to me.",
+    "turkishExample": "Açıklama bana tamamen mantıksız geliyor."
+  },
+  {
+    "word": "Legitimate",
+    "type": "adjective",
+    "turkish": "Meşru, yasal",
+    "example": "Every person has a legitimate right to education.",
+    "turkishExample": "Her insanın meşru bir eğitim hakkı vardır."
+  },
+  {
+    "word": "Nervous",
+    "type": "adjective",
+    "turkish": "Sinirli, gergin, heyecanlı",
+    "example": "She felt very nervous before the interview.",
+    "turkishExample": "Mülakattan önce çok gergin hissetti."
+  },
+  {
+    "word": "Persistent",
+    "type": "adjective",
+    "turkish": "Kalıcı, ısrarcı, sürekli",
+    "example": "He's been suffering from a persistent cough for weeks.",
+    "turkishExample": "Haftalardır bitmek bilmeyen (kalıcı) bir öksürükten şikayetçi."
+  },
+  {
+    "word": "Rigid",
+    "type": "adjective",
+    "turkish": "Sert, katı, esnemez",
+    "example": "The rules are very rigid and cannot be changed easily.",
+    "turkishExample": "Kurallar çok katıdır ve kolayca değiştirilemez."
+  },
+  {
+    "word": "Skeptical",
+    "type": "adjective",
+    "turkish": "Şüpheci, kuşkucu",
+    "example": "Many experts are skeptical about the results of the research.",
+    "turkishExample": "Pek çok uzman araştırmanın sonuçları konusunda şüpheci."
+  },
+  {
+    "word": "Tremendous",
+    "type": "adjective",
+    "turkish": "Muazzam, devasa, çok büyük",
+    "example": "The project was a tremendous success.",
+    "turkishExample": "Proje muazzam bir başarıydı."
+  },
+  {
+    "word": "Uphold",
+    "type": "verb",
+    "turkish": "Onaylamak, desteklemek, savunmak (karar, yasa vb.)",
+    "example": "The court upheld the decision of the lower court.",
+    "turkishExample": "Mahkeme, alt mahkemenin kararını onadı."
+  },
+  {
+    "word": "Vulnerable",
+    "type": "adjective",
+    "turkish": "Hassas, savunmasız, zayıf",
+    "example": "Elderly people are particularly vulnerable to the flu.",
+    "turkishExample": "Yaşlılar gribe karşı özellikle savunmasızdırlar."
+  },
+  {
+    "word": "Abstain",
+    "type": "verb",
+    "turkish": "Kaçınmak, feragat etmek, (oylamada) çekimser kalmak",
+    "example": "He decided to abstain from voting.",
+    "turkishExample": "Oy kullanırken çekimser kalmaya karar verdi."
+  },
+  {
+    "word": "Compliment",
+    "type": "noun",
+    "turkish": "Iltifat, övgü",
+    "example": "He paid her a nice compliment about her dress.",
+    "turkishExample": "Elbisesi hakkında ona güzel bir iltifatta bulundu."
+  },
+  {
+    "word": "Detrimental",
+    "type": "adjective",
+    "turkish": "Zararlı, hasar verici",
+    "example": "Smoking is detrimental to your health.",
+    "turkishExample": "Sigara içmek sağlığınıza zararlıdır."
+  },
+  {
+    "word": "Emphasis",
+    "type": "noun",
+    "turkish": "Vurgu, önem",
+    "example": "The course places a strong emphasis on practical skills.",
+    "turkishExample": "Kurs, pratik becerilere güçlü bir vurgu yapmaktadır."
+  },
+  {
+    "word": "Flaw",
+    "type": "noun",
+    "turkish": "Kusur, hata, çatlak",
+    "example": "The diamond has a small flaw in it.",
+    "turkishExample": "Elmasın içinde küçük bir kusur var."
+  },
+  {
+    "word": "Grim",
+    "type": "adjective",
+    "turkish": "Zalim, korkunç, asık suratlı, ümitsiz",
+    "example": "The future looks grim if we don't act now.",
+    "turkishExample": "Şimdi harekete geçmezsek gelecek karanlık (ümitsiz) görünüyor."
+  },
+  {
+    "word": "Hypothesis",
+    "type": "noun",
+    "turkish": "Hipotez, varsayım",
+    "example": "The scientists are testing a new hypothesis.",
+    "turkishExample": "Bilim insanları yeni bir hipotezi test ediyorlar."
+  },
+  {
+    "word": "Likely",
+    "type": "adjective",
+    "turkish": "Olası, muhtemel",
+    "example": "It is likely that the prices will rise again.",
+    "turkishExample": "Fiyatların tekrar yükselmesi muhtemeldir."
+  },
+  {
+    "word": "Neglect",
+    "type": "verb",
+    "turkish": "İhmal etmek, bakmamak",
+    "example": "The building has been neglected for years.",
+    "turkishExample": "Bina yıllardır ihmal edildi."
+  },
+  {
+    "word": "Overall",
+    "type": "adjective",
+    "turkish": "Toplam, genel, kapsamlı",
+    "example": "The overall cost of the project was $1 million.",
+    "turkishExample": "Projenin toplam maliyeti 1 milyon dolardı."
+  },
+  {
+    "word": "Passive",
+    "type": "adjective",
+    "turkish": "Pasif, edilgen, eylemsiz",
+    "example": "She played a passive role in the meeting.",
+    "turkishExample": "Toplantıda pasif bir rol oynadı."
+  },
+  {
+    "word": "Recover",
+    "type": "verb",
+    "turkish": "İyileşmek, geri kazanmak",
+    "example": "She is still recovering from her surgery.",
+    "turkishExample": "Hala ameliyatının etkisinden kurtuluyor (iyileşiyor)."
+  },
+  {
+    "word": "Stagnant",
+    "type": "adjective",
+    "turkish": "Durgun, hareketsiz, kirli ve durgun (su vb.)",
+    "example": "The economy has remained stagnant for over a year.",
+    "turkishExample": "Ekonomi bir yılı aşkın süredir durgun seyrediyor."
+  },
+  {
+    "word": "Ultimate",
+    "type": "adjective",
+    "turkish": "Nihai, son, temel",
+    "example": "The ultimate goal is to achieve peace.",
+    "turkishExample": "Nihai hedef barışı sağlamaktır."
+  },
+  {
+    "word": "Value",
+    "type": "noun",
+    "turkish": "Değer, kıymet",
+    "example": "The house has increased in value significantly.",
+    "turkishExample": "Evin değeri önemli ölçüde arttı."
+  },
+  {
+    "word": "Fruitful",
+    "type": "adjective",
+    "turkish": "Verimli, bereketli, karlı",
+    "example": "The meeting was very fruitful.",
+    "turkishExample": "Toplantı çok verimli geçti."
+  },
+  {
+    "word": "Joint",
+    "type": "adjective",
+    "turkish": "Ortak, birleşik",
+    "example": "They made a joint statement to the press.",
+    "turkishExample": "Basına ortak bir açıklama yaptılar."
+  },
+  {
+    "word": "Kinship",
+    "type": "noun",
+    "turkish": "Akrabalık, benzerlik",
+    "example": "There is a strong sense of kinship between the two communities.",
+    "turkishExample": "İki topluluk arasında güçlü bir benzerlik (akrabalık) hissi var."
+  },
+  {
+    "word": "Lenient",
+    "type": "adjective",
+    "turkish": "Yumuşak, hoşgörülü, merhametli",
+    "example": "The judge was very lenient with the young offender.",
+    "turkishExample": "Yargıç genç suçluya karşı çok hoşgörülü davrandı."
+  },
+  {
+    "word": "Noisy",
+    "type": "adjective",
+    "turkish": "Gürültülü",
+    "example": "The neighbors are always so noisy.",
+    "turkishExample": "Komşular her zaman çok gürültülü."
+  },
+  {
+    "word": "Oblige",
+    "type": "verb",
+    "turkish": "Zorunda bırakmak, minnettar bırakmak, yardım etmek",
+    "example": "We were obliged to wait for another hour.",
+    "turkishExample": "Bir saat daha beklemek zorunda bırakıldık."
+  },
+  {
+    "word": "Quote",
+    "type": "verb",
+    "turkish": "Alıntı yapmak, fiyat teklif etmek",
+    "example": "He quoted a sentence from the book.",
+    "turkishExample": "Kitaptan bir cümle alıntıladı."
+  },
+  {
+    "word": "Scorn",
+    "type": "verb",
+    "turkish": "Küçümsemek, hor görmek",
+    "example": "She scorned his offer of help.",
+    "turkishExample": "Onun yardım teklifini küçümsedi (hor gördü)."
+  },
+  {
+    "word": "Urge",
+    "type": "verb",
+    "turkish": "Zorlamak, ısrarla tavsiye etmek, teşvik etmek",
+    "example": "I urge you to reconsider your decision.",
+    "turkishExample": "Kararınızı tekrar gözden geçirmenizi önemle tavsiye ediyorum."
+  },
+  {
+    "word": "Abstract",
+    "type": "adjective",
+    "turkish": "Soyut",
+    "example": "Happiness is an abstract concept.",
+    "turkishExample": "Mutluluk soyut bir kavramdır."
+  },
+  {
+    "word": "Adept",
+    "type": "adjective",
+    "turkish": "Becerikli, mahir, usta",
+    "example": "He is very adept at solving complex problems.",
+    "turkishExample": "Karmaşık problemleri çözmede çok beceriklidir."
+  },
+  {
+    "word": "Analogous",
+    "type": "adjective",
+    "turkish": "Benzer, örnek teşkil eden",
+    "example": "The wings of a bird are analogous to the fins of a fish.",
+    "turkishExample": "Bir kuşun kanatları, bir balığın yüzgeçlerine benzerdir."
+  },
+  {
+    "word": "Arbitrary",
+    "type": "adjective",
+    "turkish": "Keyfi, rastgele",
+    "example": "The choice of participants was completely arbitrary.",
+    "turkishExample": "Katılımcıların seçimi tamamen keyfiydi."
+  },
+  {
+    "word": "Ascertain",
+    "type": "verb",
+    "turkish": "Saptamak, belirlemek, aslını öğrenmek",
+    "example": "We need to ascertain the cause of the fire.",
+    "turkishExample": "Yangının nedenini saptamamız gerekiyor."
+  },
+  {
+    "word": "Assimilate",
+    "type": "verb",
+    "turkish": "Özümsemek, benimsemek, sindirmek",
+    "example": "New immigrants often find it hard to assimilate into the local culture.",
+    "turkishExample": "Yeni göçmenler genellikle yerel kültürü özümsemekte zorlanırlar."
+  },
+  {
+    "word": "Austerity",
+    "type": "noun",
+    "turkish": "Kemer sıkma, sertlik, sadelik",
+    "example": "The government introduced austerity measures to reduce the deficit.",
+    "turkishExample": "Hükümet açığı kapatmak için kemer sıkma (tasarruf) önlemleri getirdi."
+  },
+  {
+    "word": "Banal",
+    "type": "adjective",
+    "turkish": "Banal, sıradan, yozlaşmış",
+    "example": "The plot of the movie was very banal.",
+    "turkishExample": "Filmin konusu çok banaldi (sıradandı)."
+  },
+  {
+    "word": "Barrage",
+    "type": "noun",
+    "turkish": "Baraj, yaylım ateşi, yoğun saldırı",
+    "example": "The speaker was faced with a barrage of questions.",
+    "turkishExample": "Konuşmacı soru yağmuruyla (barajıyla) karşılaştı."
+  },
+  {
+    "word": "Belligerent",
+    "type": "adjective",
+    "turkish": "Savaşçı, kavgacı, saldırgan",
+    "example": "He has a very belligerent attitude.",
+    "turkishExample": "Çok kavgacı (saldırgan) bir tavrı var."
+  },
+  {
+    "word": "Blatant",
+    "type": "adjective",
+    "turkish": "Bariz, apaçık, arsızca",
+    "example": "It was a blatant lie.",
+    "turkishExample": "Apaçık bir yalandı."
+  },
+  {
+    "word": "Capricious",
+    "type": "adjective",
+    "turkish": "Değişken, maymun iştahlı, fevri",
+    "example": "The weather in the mountains is very capricious.",
+    "turkishExample": "Dağlardaki hava çok değişkendir (fevridir)."
+  },
+  {
+    "word": "Castigate",
+    "type": "verb",
+    "turkish": "Azarlamak, şiddetle eleştirmek, cezalandırmak",
+    "example": "The manager castigated the employees for their mistakes.",
+    "turkishExample": "Müdür, hatalarından dolayı çalışanları şiddetle eleştirdi."
+  },
+  {
+    "word": "Coherent",
+    "type": "adjective",
+    "turkish": "Tutarlı, uyumlu, anlaşılır",
+    "example": "He failed to give a coherent explanation for his behavior.",
+    "turkishExample": "Davranışı için tutarlı bir açıklama yapamadı."
+  },
+  {
+    "word": "Compelling",
+    "type": "adjective",
+    "turkish": "Zorlayıcı, ikna edici, merak uyandıran",
+    "example": "There is no compelling evidence to support his theory.",
+    "turkishExample": "Teorisini destekleyecek ikna edici (zorlayıcı) bir kanıt yok."
+  },
+  {
+    "word": "Complacent",
+    "type": "adjective",
+    "turkish": "Halinden memnun, kayıtsız, gevşek",
+    "example": "We cannot afford to be complacent about safety.",
+    "turkishExample": "Güvenlik konusunda kayıtsız (gevşek) kalma lüksümüz yok."
+  },
+  {
+    "word": "Concise",
+    "type": "adjective",
+    "turkish": "Kısa ve öz, az ve öz",
+    "example": "His report was very concise and easy to read.",
+    "turkishExample": "Raporu çok kısa ve öz ve okunması kolaydı."
+  },
+  {
+    "word": "Condone",
+    "type": "verb",
+    "turkish": "Görmezden gelmek, affetmek, müsamaha göstermek",
+    "example": "The school does not condone violence of any kind.",
+    "turkishExample": "Okul her türlü şiddeti görmezden gelmez (asla müsamaha göstermez)."
+  },
+  {
+    "word": "Conspicuous",
+    "type": "adjective",
+    "turkish": "Göz önünde, bariz, dikkat çekici",
+    "example": "The bird has a conspicuous red mark on its head.",
+    "turkishExample": "Kuşun başında dikkat çekici kırmızı bir işaret var."
+  },
+  {
+    "word": "Credible",
+    "type": "adjective",
+    "turkish": "İnanılır, güvenilir",
+    "example": "The witness provided a credible account of the accident.",
+    "turkishExample": "Tanık, kaza hakkında güvenilir (inanılır) bir anlatım sundu."
+  },
+  {
+    "word": "Culpable",
+    "type": "adjective",
+    "turkish": "Suçlu, kusurlu, kabahatli",
+    "example": "The company was found culpable for the environmental damage.",
+    "turkishExample": "Şirket çevresel zarardan dolayı suçlu bulundu."
+  },
+  {
+    "word": "Cursory",
+    "type": "adjective",
+    "turkish": "Üstünkörü, alelacele",
+    "example": "He took a cursory glance at the documents.",
+    "turkishExample": "Belgelere üstünkörü bir göz attı."
+  },
+  {
+    "word": "Daunting",
+    "type": "adjective",
+    "turkish": "Göz korkutucu, yıldırıcı",
+    "example": "Starting a new job can be a daunting experience.",
+    "turkishExample": "Yeni bir işe başlamak göz korkutucu bir deneyim olabilir."
+  },
+  {
+    "word": "Debilitate",
+    "type": "verb",
+    "turkish": "Güçsüzleştirmek, zayıflatmak",
+    "example": "The illness has debilitated him significantly.",
+    "turkishExample": "Hastalık onu önemli ölçüde güçsüzleştirdi."
+  },
+  {
+    "word": "Deficit",
+    "type": "noun",
+    "turkish": "Açık (bütçe, puan vb.), eksiklik",
+    "example": "The trade deficit reached a record high last month.",
+    "turkishExample": "Ticaret açığı geçen ay rekor seviyeye ulaştı."
+  },
+  {
+    "word": "Deliberate",
+    "type": "adjective",
+    "turkish": "Kasti, mahsus, ölçülü, yavaş",
+    "example": "It was a deliberate attempt to mislead us.",
+    "turkishExample": "Bizi yanıltmaya yönelik kasti bir girişimdi."
+  },
+  {
+    "word": "Demeanor",
+    "type": "noun",
+    "turkish": "Tavır, davranış, hal ve hareket",
+    "example": "He has a very calm and professional demeanor.",
+    "turkishExample": "Çok sakin ve profesyonel bir tavrı var."
+  },
+  {
+    "word": "Demure",
+    "type": "adjective",
+    "turkish": "Ciddi, ağırbaşlı, utangaç",
+    "example": "She was wearing a demure dress for the occasion.",
+    "turkishExample": "Durum için ağırbaşlı (sade) bir elbise giyiyordu."
+  },
+  {
+    "word": "Deride",
+    "type": "verb",
+    "turkish": "Alay etmek, küçümsemek",
+    "example": "The critics derided its old-fashioned style.",
+    "turkishExample": "Eleştirmenler onun eski moda tarzıyla alay ettiler."
+  },
+  {
+    "word": "Desolate",
+    "type": "adjective",
+    "turkish": "Issız, terkedilmiş, kederli",
+    "example": "The landscape was desolate and empty.",
+    "turkishExample": "Manzara ıssız ve boştu."
+  },
+  {
+    "word": "Despondent",
+    "type": "adjective",
+    "turkish": "Umutsuz, kederli, meyus",
+    "example": "He felt despondent after failing the test again.",
+    "turkishExample": "Testte tekrar başarısız olduktan sonra umutsuz hissetti."
+  },
+  {
+    "word": "Devious",
+    "type": "adjective",
+    "turkish": "Sinsi, dolambaçlı, hilekâr",
+    "example": "He uses devious methods to get what he wants.",
+    "turkishExample": "İstediğini elde etmek için sinsi yöntemler kullanır."
+  },
+  {
+    "word": "Diffident",
+    "type": "adjective",
+    "turkish": "Çekingen, kendine güvensiz",
+    "example": "The diffident student rarely spoke in class.",
+    "turkishExample": "Çekingen öğrenci sınıfta nadiren konuşurdu."
+  },
+  {
+    "word": "Digress",
+    "type": "verb",
+    "turkish": "Konu dışına çıkmak, sapmak",
+    "example": "Stop digressing and get back to the point.",
+    "turkishExample": "Konuyu dağıtmayı bırak ve sadede gel."
+  },
+  {
+    "word": "Diligent",
+    "type": "adjective",
+    "turkish": "Gayretli, hamarat, çalışkan",
+    "example": "He is a very diligent worker.",
+    "turkishExample": "Çok çalışkan (gayretli) bir işçidir."
+  },
+  {
+    "word": "Disparage",
+    "type": "verb",
+    "turkish": "Küçümsemek, değersizleştirmek, yermek",
+    "example": "You shouldn't disparage his efforts.",
+    "turkishExample": "Onun çabalarını küçümsememelisin."
+  },
+  {
+    "word": "Disparate",
+    "type": "adjective",
+    "turkish": "Farklı, tamamen değişik",
+    "example": "The committee is made up of people from disparate backgrounds.",
+    "turkishExample": "Komite, tamamen farklı geçmişlere sahip insanlardan oluşmaktadır."
+  },
+  {
+    "word": "Disseminate",
+    "type": "verb",
+    "turkish": "Yaymak, dağıtmak (bilgi, haber vb.)",
+    "example": "The organization works to disseminate information about the disease.",
+    "turkishExample": "Kuruluş, hastalık hakkında bilgi yaymak için çalışıyor."
+  },
+  {
+    "word": "Dissonance",
+    "type": "noun",
+    "turkish": "Uyumsuzluk, ahenksizlik, fikir ayrılığı",
+    "example": "There is a cognitive dissonance in his argument.",
+    "turkishExample": "Argümanında bilişsel bir uyumsuzluk var."
+  },
+  {
+    "word": "Distinct",
+    "type": "adjective",
+    "turkish": "Farklı, belirgin, kendine has",
+    "example": "The Two languages are quite distinct from each other.",
+    "turkishExample": "İki dil birbirinden oldukça farklıdır."
+  },
+  {
+    "word": "Divergent",
+    "type": "adjective",
+    "turkish": "Farklılaşan, sapan, bambaşka",
+    "example": "The Two friends took divergent paths in life.",
+    "turkishExample": "İki arkadaş hayatta farklılaşan (ayrı) yollar izlediler."
+  },
+  {
+    "word": "Diverse",
+    "type": "adjective",
+    "turkish": "Çeşitli, türlü türlü",
+    "example": "The city has a very diverse population.",
+    "turkishExample": "Şehrin çok çeşitli bir nüfusu var."
+  },
+  {
+    "word": "Divulge",
+    "type": "verb",
+    "turkish": "İfşa etmek, açığa vurmak, sızdırmak",
+    "example": "The police refused to divulge the identity of the witness.",
+    "turkishExample": "Polis tanığın kimliğini ifşa etmeyi reddetti."
+  },
+  {
+    "word": "Docile",
+    "type": "adjective",
+    "turkish": "Uysal, halim selim, yumuşak başlı",
+    "example": "The horse was very docile and easy to ride.",
+    "turkishExample": "At çok uysaldı ve binmesi kolaydı."
+  },
+  {
+    "word": "Dogmatic",
+    "type": "adjective",
+    "turkish": "Dogmatik, inatçı, kesin inançlı",
+    "example": "He is very dogmatic in his religious views.",
+    "turkishExample": "Dini görüşlerinde çok dogmatiktir (kesin inançlıdır)."
+  },
+  {
+    "word": "Dormant",
+    "type": "adjective",
+    "turkish": "Atıl, uyuyan, uykuda olan, eylemsiz",
+    "example": "The volcano has been dormant for hundreds of years.",
+    "turkishExample": "Yanardağ yüzlerce yıldır uykudadır (eylemsizdir)."
+  },
+  {
+    "word": "Dubious",
+    "type": "adjective",
+    "turkish": "Şüpheli, kuşkulu, tekinsiz",
+    "example": "He has a dubious reputation in the financial world.",
+    "turkishExample": "Finans dünyasında şüpheli bir itibarı var."
+  },
+  {
+    "word": "Duplicity",
+    "type": "noun",
+    "turkish": "İkiyüzlülük, hilekarlık",
+    "example": "She was shocked by his duplicity.",
+    "turkishExample": "Onun ikiyüzlülüğüne şok oldu."
+  },
+  {
+    "word": "Ebullient",
+    "type": "adjective",
+    "turkish": "Coşkulu, hayat dolu, kaynayan",
+    "example": "He was in an ebullient mood after the victory.",
+    "turkishExample": "Galibiyetten sonra coşkulu bir ruh halindeydi."
+  },
+  {
+    "word": "Eclectic",
+    "type": "adjective",
+    "turkish": "Eklektik, seçmeci, çeşitli kaynaklardan toplanmış",
+    "example": "Her musical tastes are quite eclectic.",
+    "turkishExample": "Müzik zevki oldukça eklektiktir (çeşitlidir)."
+  },
+  {
+    "word": "Efficacy",
+    "type": "noun",
+    "turkish": "Etkililik, yararlılık",
+    "example": "The vaccine has shown great efficacy in the trials.",
+    "turkishExample": "Aşı, denemelerde büyük bir etkililik gösterdi."
+  },
+  {
+    "word": "Egregious",
+    "type": "adjective",
+    "turkish": "Çok kötü, sırıtan, dehşet verici (hata vb.)",
+    "example": "It was an egregious breach of safety protocol.",
+    "turkishExample": "Güvenlik protokolünün çok kötü (dehşet verici) bir ihlaliydi."
+  },
+  {
+    "word": "Elucidate",
+    "type": "verb",
+    "turkish": "Açıklığa kavuşturmak, izah etmek, aydınlatmak",
+    "example": "The report attempts to elucidate the causes of the crisis.",
+    "turkishExample": "Rapor krizin nedenlerini açıklamaya (aydınlatmaya) çalışıyor."
+  },
+  {
+    "word": "Elusive",
+    "type": "adjective",
+    "turkish": "Ele geçmez, kaçamak, anlaşılması zor",
+    "example": "The criminal has remained elusive for weeks.",
+    "turkishExample": "Suçlu haftalardır ele geçmiyor (kaçıyor)."
+  },
+  {
+    "word": "Emancipate",
+    "type": "verb",
+    "turkish": "Özgürlüğüne kavuşturmak, serbest bırakmak",
+    "example": "The slaves were finally emancipated in 1863.",
+    "turkishExample": "Köleler nihayet 1863'te özgürlüklerine kavuştular."
+  },
+  {
+    "word": "Embellish",
+    "type": "verb",
+    "turkish": "Süslemek, güzelleştirmek, abartarak anlatmak",
+    "example": "The story was embellished with many extra details.",
+    "turkishExample": "Hikaye pek çok ekstra detayla süslendi (abartıldı)."
+  },
+  {
+    "word": "Empathy",
+    "type": "noun",
+    "turkish": "Empati, duygudaşlık",
+    "example": "He has a great deal of empathy for the poor.",
+    "turkishExample": "Yoksullara karşı büyük bir empatisi var."
+  },
+  {
+    "word": "Empirical",
+    "type": "adjective",
+    "turkish": "Deneysel, deneyime dayalı",
+    "example": "There is no empirical evidence to support his theory.",
+    "turkishExample": "Teorisini destekleyecek deneysel (deneyime dayalı) bir kanıt yok."
+  },
+  {
+    "word": "Emulate",
+    "type": "verb",
+    "turkish": "Taklit etmek, benzemeye çalışmak, yarışmak",
+    "example": "Aspiring artists often try to emulate the great masters.",
+    "turkishExample": "Genç sanatçılar genellikle büyük ustaları taklit etmeye çalışırlar."
+  },
+  {
+    "word": "Enervate",
+    "type": "verb",
+    "turkish": "Gücünü kesmek, zayıflatmak, bezdirmek",
+    "example": "The hot weather enervated the troops.",
+    "turkishExample": "Sıcak hava birliklerin gücünü kesti (onları bitkin bıraktı)."
+  },
+  {
+    "word": "Engender",
+    "type": "verb",
+    "turkish": "Neden olmak, doğurmak, uyandırmak",
+    "example": "The new policy engendered a lot of controversy.",
+    "turkishExample": "Yeni politika pek çok tartışmaya neden oldu."
+  },
+  {
+    "word": "Enigma",
+    "type": "noun",
+    "turkish": "Bilahare, gizem, muamma",
+    "example": "His disappearance remains an enigma.",
+    "turkishExample": "Kayboluşu bir muamma (gizem) olarak kalıyor."
+  },
+  {
+    "word": "Enumerate",
+    "type": "verb",
+    "turkish": "Sıralamak, tek tek saymak",
+    "example": "The report enumerates all the problems we encountered.",
+    "turkishExample": "Rapor karşılaştığımız tüm sorunları tek tek sıralıyor."
+  },
+  {
+    "word": "Ephemeral",
+    "type": "adjective",
+    "turkish": "Kısa süreli, geçici, ölümlü",
+    "example": "Fame is often ephemeral.",
+    "turkishExample": "Şöhret genellikle geçicidir (kısa sürelidir)."
+  },
+  {
+    "word": "Equanimity",
+    "type": "noun",
+    "turkish": "Sakinlik, soğukkanlılık, huzur",
+    "example": "He faced the crisis with great equanimity.",
+    "turkishExample": "Krizi büyük bir soğukkanlılıkla karşıladı."
+  },
+  {
+    "word": "Equitable",
+    "type": "adjective",
+    "turkish": "Hakça, adil, tarafsız",
+    "example": "The goal is to provide an equitable education for all students.",
+    "turkishExample": "Hedef, tüm öğrenciler için adil (hakça) bir eğitim sağlamaktır."
+  },
+  {
+    "word": "Equivocal",
+    "type": "adjective",
+    "turkish": "İki anlamlı, şüpheli, belirsiz",
+    "example": "His response to the question was quite equivocal.",
+    "turkishExample": "Soruyu verdiği cevap oldukça belirsizdi (kaçamaktı)."
+  },
+  {
+    "word": "Erudite",
+    "type": "adjective",
+    "turkish": "Bilgin, ilim irfan sahibi, çok okumuş",
+    "example": "He is an erudite scholar of ancient history.",
+    "turkishExample": "Antik tarihin çok bilgili (erudite) bir bilginidir."
+  },
+  {
+    "word": "Esoteric",
+    "type": "adjective",
+    "turkish": "Ezoterik, sadece sınırlı bir kitle tarafından anlaşılan, gizli",
+    "example": "The book contains esoteric knowledge about alchemy.",
+    "turkishExample": "Kitap, simya hakkında sadece sınırlı bir kitlece bilinen (ezoterik) bilgiler içeriyor."
+  },
+  {
+    "word": "Eulogy",
+    "type": "noun",
+    "turkish": "Övgü dolu söz, cenaze konuşması",
+    "example": "He delivered a moving eulogy at the funeral.",
+    "turkishExample": "Cenazede etkileyici bir övgü konuşması yaptı."
+  },
+  {
+    "word": "Euphemism",
+    "type": "noun",
+    "turkish": "Örtmece, güzel adlandırma (kötü bir şeyi yumuşatarak söyleme)",
+    "example": "'Passed away' is a euphemism for 'died'.",
+    "turkishExample": "'Vefat etti' kelimesi 'öldü' kelimesi için bir güzel adlandırmadır (örtmece)."
+  },
+  {
+    "word": "Exalt",
+    "type": "verb",
+    "turkish": "Yüceltmek, övmek, rütbesini yükseltmek",
+    "example": "The king was exalted by his subjects.",
+    "turkishExample": "Kral, tebaası tarafından yüceltildi."
+  },
+  {
+    "word": "Exasperate",
+    "type": "verb",
+    "turkish": "Sinirlendirmek, canından bezdirmek, çileden çıkarmak",
+    "example": "The constant noise was beginning to exasperate the residents.",
+    "turkishExample": "Sürekli gürültü sakinleri canından bezdirmeye başlıyordu."
+  },
+  {
+    "word": "Exculpate",
+    "type": "verb",
+    "turkish": "Suçsuz çıkarmak, beraat ettirmek",
+    "example": "The new evidence should exculpate him from all charges.",
+    "turkishExample": "Yeni kanıt onu tüm suçlamalardan beraat ettirmeli."
+  },
+  {
+    "word": "Exemplary",
+    "type": "adjective",
+    "turkish": "Örnek niteliğinde, ibretlik",
+    "example": "Her behavior was exemplary.",
+    "turkishExample": "Davranışı örnek niteliğindeydi."
+  },
+  {
+    "word": "Exhaustive",
+    "type": "adjective",
+    "turkish": "Kapsamlı, detaylı, yorucu",
+    "example": "The police carried out an exhaustive search of the area.",
+    "turkishExample": "Polis bölgede kapsamlı (detaylı) bir arama yaptı."
+  },
+  {
+    "word": "Exhilarating",
+    "type": "adjective",
+    "turkish": "Neşelendirici, canlandırıcı, heyecan verici",
+    "example": "The roller coaster ride was exhilarating.",
+    "turkishExample": "Hız treni yolculuğu heyecan verici ve canlandırıcıydı."
+  },
+  {
+    "word": "Exigent",
+    "type": "adjective",
+    "turkish": "Acil, zorlayıcı, titizlik isteyen",
+    "example": "The task reached an exigent stage.",
+    "turkishExample": "Görev acil (zorlayıcı) bir aşamaya ulaştı."
+  },
+  {
+    "word": "Exonerate",
+    "type": "verb",
+    "turkish": "Temize çıkarmak, beraat ettirmek",
+    "example": "The new test results exonerated him from all suspicion.",
+    "turkishExample": "Yeni test sonuçları onu tüm şüphelerden temize çıkardı."
+  },
+  {
+    "word": "Exorbitant",
+    "type": "adjective",
+    "turkish": "Fahiş, aşırı yüksek (fiyat vb.)",
+    "example": "The hotel charges exorbitant prices for drinks.",
+    "turkishExample": "Otel içecekler için fahiş fiyatlar talep ediyor."
+  },
+  {
+    "word": "Expedient",
+    "type": "adjective",
+    "turkish": "Uygun, yerinde, çıkarına uygun",
+    "example": "It was politically expedient to follow the rules.",
+    "turkishExample": "Kurallara uymak siyasi açıdan (çıkarlara) uygundu."
+  },
+  {
+    "word": "Explicit",
+    "type": "adjective",
+    "turkish": "Açık, bariz, net",
+    "example": "The instructions were very explicit.",
+    "turkishExample": "Talimatlar çok açıktı (netti)."
+  },
+  {
+    "word": "Exponent",
+    "type": "noun",
+    "turkish": "Temsilci, savunucu, üs (matematiksel)",
+    "example": "He is a leading exponent of modern art.",
+    "turkishExample": "Modern sanatın önde gelen bir temsilcisidir."
+  },
+  {
+    "word": "Expound",
+    "type": "verb",
+    "turkish": "Uzun uzadıya anlatmak, açıklamak",
+    "example": "He expounded his views on the subject at great length.",
+    "turkishExample": "Konu hakkındaki görüşlerini uzun uzadıya açıkladı."
+  },
+  {
+    "word": "Expunge",
+    "type": "verb",
+    "turkish": "Silmek, çıkartmak, yok etmek",
+    "example": "He wanted to expunge the incident from his memory.",
+    "turkishExample": "Olayı hafızasından silmek istedi."
+  },
+  {
+    "word": "Extant",
+    "type": "adjective",
+    "turkish": "Halen var olan, günümüze kadar ulaşmış",
+    "example": "This is the only extant copy of the manuscript.",
+    "turkishExample": "Bu, el yazmasının günümüze ulaşmış tek kopyasıdır."
+  },
+  {
+    "word": "Extirpate",
+    "type": "verb",
+    "turkish": "Kökünden kurutmak, yok etmek",
+    "example": "The goal is to extirpate the disease completely.",
+    "turkishExample": "Hedef hastalığı tamamen yok etmektir."
+  },
+  {
+    "word": "Extol",
+    "type": "verb",
+    "turkish": "Övmek, göklere çıkarmak",
+    "example": "The critics extolled the beauty of the film.",
+    "turkishExample": "Eleştirmenler filmin güzelliğini göklere çıkardılar."
+  },
+  {
+    "word": "Extraneous",
+    "type": "adjective",
+    "turkish": "Dışsal, ilgisiz, yabancı",
+    "example": "You should remove any extraneous information from the report.",
+    "turkishExample": "Rapordaki ilgisiz (gereksiz) bilgileri kaldırmalısınız."
+  },
+  {
+    "word": "Extravagant",
+    "type": "adjective",
+    "turkish": "Müsrif, savurgan, aşırı",
+    "example": "Her lifestyle was very extravagant.",
+    "turkishExample": "Yaşam tarzı çok savurgandı (müsrifti)."
+  },
+  {
+    "word": "Extricate",
+    "type": "verb",
+    "turkish": "Kurtarmak, çıkarmak (zor durumdan vb.)",
+    "example": "He managed to extricate himself from the difficult situation.",
+    "turkishExample": "Kendisini o zor durumdan kurtarmayı başardı."
+  },
+  {
+    "word": "Exuberant",
+    "type": "adjective",
+    "turkish": "Coşkulu, gür, bereketli",
+    "example": "He was in an exuberant mood.",
+    "turkishExample": "Coşkulu bir ruh halindeydi."
+  },
+  {
+    "word": "Facetious",
+    "type": "adjective",
+    "turkish": "Şakacı, alaycı, yersiz şaka yapan",
+    "example": "Stop being facetious and take this seriously.",
+    "turkishExample": "Alay etmeyi (yersiz şakaları) bırak ve bunu ciddiye al."
+  },
+  {
+    "word": "Fastidious",
+    "type": "adjective",
+    "turkish": "Titiz, zor beğenen, kılı kırk yaran",
+    "example": "He is very fastidious about his clothes.",
+    "turkishExample": "Kıyafetleri konusunda çok titizdir (mükemmeliyetçidir)."
+  },
+  {
+    "word": "Feasible",
+    "type": "adjective",
+    "turkish": "Mümkün, uygulanabilir",
+    "example": "Is it feasible to finish the project by Friday?",
+    "turkishExample": "Projeyi Cuma gününe kadar bitirmek mümkün mü?"
+  },
+  {
+    "word": "Fervent",
+    "type": "adjective",
+    "turkish": "Ateşli, coşkulu, samimi",
+    "example": "He is a fervent supporter of the environmental movement.",
+    "turkishExample": "Çevre hareketinin ateşli bir destekçisidir."
+  },
+  {
+    "word": "Fickle",
+    "type": "adjective",
+    "turkish": "Değişken, vefasız, kararsız",
+    "example": "The weather in this region is very fickle.",
+    "turkishExample": "Bu bölgedeki hava çok değişkendir."
+  },
+  {
+    "word": "Finesse",
+    "type": "noun",
+    "turkish": "İncelik, ustalık, beceri",
+    "example": "He handled the difficult situation with great finesse.",
+    "turkishExample": "Zor durumu büyük bir ustalıkla idare etti."
+  },
+  {
+    "word": "Flagrant",
+    "type": "adjective",
+    "turkish": "Apaçık, bariz, arsızca (suç vb.)",
+    "example": "It was a flagrant violation of the rules.",
+    "turkishExample": "Kuralların apaçık (arsızca) bir ihlaliydi."
+  },
+  {
+    "word": "Flippant",
+    "type": "adjective",
+    "turkish": "Saygısız, laubali, ciddiyetsiz",
+    "example": "He made a flippant remark about the tragedy.",
+    "turkishExample": "Trajedi hakkında laubali (ciddiyetsiz) bir yorumda bulundu."
+  },
+  {
+    "word": "Florid",
+    "type": "adjective",
+    "turkish": "Süslü, kabarık, kırmızı suratlı",
+    "example": "He wrote in a very florid style.",
+    "turkishExample": "Çok süslü (ağdalı) bir tarzda yazdı."
+  },
+  {
+    "word": "Flout",
+    "type": "verb",
+    "turkish": "Küçümsemek, hiçe saymak, alay etmek",
+    "example": "They continued to flout the law.",
+    "turkishExample": "Yasaları hiçe saymaya devam ettiler."
+  },
+  {
+    "word": "Foible",
+    "type": "noun",
+    "turkish": "Zayıf nokta, kusurcuk, karakteristik özellik",
+    "example": "We all have our little foibles.",
+    "turkishExample": "Hepimizin küçük kusurları (zayıf noktaları) vardır."
+  },
+  {
+    "word": "Foment",
+    "type": "verb",
+    "turkish": "Kışkırtmak, körüklemek, teşvik etmek (kötü bir şeyi)",
+    "example": "He was accused of fomenting unrest in the city.",
+    "turkishExample": "Şehirde huzursuzluğu körüklemekle suçlandı."
+  },
+  {
+    "word": "Forbearance",
+    "type": "noun",
+    "turkish": "Hoşgörü, sabır, tahammül",
+    "example": "He showed great forbearance in dealing with the difficult customer.",
+    "turkishExample": "Zor müşteriyle uğraşırken büyük bir sabır (hoşgörü) gösterdi."
+  },
+  {
+    "word": "Format",
+    "type": "noun",
+    "turkish": "Biçim, format",
+    "example": "The document is in a PDF format.",
+    "turkishExample": "Belge PDF formatındadır."
+  },
+  {
+    "word": "Formidable",
+    "type": "adjective",
+    "turkish": "Heybetli, korkunç, zorlu",
+    "example": "He faced a formidable opponent in the final.",
+    "turkishExample": "Finalde zorlu bir rakiple karşılaştı."
+  },
+  {
+    "word": "Fortitude",
+    "type": "noun",
+    "turkish": "Metanet, dayanıklılık, ruhsal güç",
+    "example": "She showed great fortitude throughout her long illness.",
+    "turkishExample": "Uzun süren hastalığı boyunca büyük bir metanet gösterdi."
+  },
+  {
+    "word": "Fractious",
+    "type": "adjective",
+    "turkish": "Huysuz, geçimsiz, aksi",
+    "example": "The children were tired and fractious.",
+    "turkishExample": "Çocuklar yorgun ve huysuzdu."
+  },
+  {
+    "word": "Frail",
+    "type": "adjective",
+    "turkish": "Cılız, zayıf, kırılgan",
+    "example": "The old man was very frail.",
+    "turkishExample": "Yaşlı adam çok cılızdı (zayıftı)."
+  },
+  {
+    "word": "Frantic",
+    "type": "adjective",
+    "turkish": "Telaşlı, çılgına dönmüş, heyecanlı",
+    "example": "He made a frantic attempt to escape.",
+    "turkishExample": "Kaçmak için telaşlı (çılgınca) bir girişimde bulundu."
+  },
+  {
+    "word": "Fraudulent",
+    "type": "adjective",
+    "turkish": "Hileli, dolandırıcı, sahte",
+    "example": "The transaction was found to be fraudulent.",
+    "turkishExample": "İşlemin hileli olduğu ortaya çıktı."
+  },
+  {
+    "word": "Fraught",
+    "type": "adjective",
+    "turkish": "Dolu, yüklü (tehlike vb. ile), gergin",
+    "example": "The situation was fraught with danger.",
+    "turkishExample": "Durum tehlikeyle doluydu."
+  },
+  {
+    "word": "Frivolous",
+    "type": "adjective",
+    "turkish": "Gereksiz, anlamsız, ciddiyetsiz",
+    "example": "He spent all his money on frivolous things.",
+    "turkishExample": "Tüm parasını gereksiz (anlamsız) şeylere harcadı."
+  },
+  {
+    "word": "Furtive",
+    "type": "adjective",
+    "turkish": "Sinsi, kaçamak, gizli kapaklı",
+    "example": "He threw a furtive glance at the door.",
+    "turkishExample": "Kapıya kaçamak (sinsi) bir bakış attı."
+  },
+  {
+    "word": "Futile",
+    "type": "adjective",
+    "turkish": "Nafile, boşuna, beyhude",
+    "example": "It was a futile effort to change his mind.",
+    "turkishExample": "Onun fikrini değiştirmek boşuna (nafile) bir çabaydı."
+  },
+  {
+    "word": "Gainsay",
+    "type": "verb",
+    "turkish": "Aksini iddia etmek, karşı çıkmak, reddetmek",
+    "example": "There is no gainsaying his achievements.",
+    "turkishExample": "Onun başarılarının aksini iddia etmek mümkün değil."
+  },
+  {
+    "word": "Garnish",
+    "type": "verb",
+    "turkish": "Süslemek, (yemek vb.) donatmak",
+    "example": "The fish was garnished with a slice of lemon.",
+    "turkishExample": "Balık bir dilim limonla süslendi (donatıldı)."
+  },
+  {
+    "word": "Garrulous",
+    "type": "adjective",
+    "turkish": "Geveze, konuşkan",
+    "example": "He is a very garrulous person.",
+    "turkishExample": "Çok geveze biridir."
+  },
+  {
+    "word": "Generic",
+    "type": "adjective",
+    "turkish": "Genel, kapsamlı, marka olmayan",
+    "example": "The term 'fruit' is a generic name for apples, pears, and bananas.",
+    "turkishExample": "'Meyve' terimi elma, armut ve muz için genel bir isimdir."
+  },
+  {
+    "word": "Genesis",
+    "type": "noun",
+    "turkish": "Oluşum, doğuş, köken",
+    "example": "The book explains the genesis of the universe.",
+    "turkishExample": "Kitap evrenin oluşumunu (doğuşunu) açıklıyor."
+  },
+  {
+    "word": "Genteel",
+    "type": "adjective",
+    "turkish": "Kibar, asil, eğitimli",
+    "example": "They live in a very genteel neighborhood.",
+    "turkishExample": "Çok kibar (nezih) bir mahallede yaşıyorlar."
+  },
+  {
+    "word": "Germane",
+    "type": "adjective",
+    "turkish": "İlgili, konuyla alakalı",
+    "example": "The question was not germane to the discussion.",
+    "turkishExample": "Soru tartışmayla alakalı değildi."
+  },
+  {
+    "word": "Gesticulate",
+    "type": "verb",
+    "turkish": "Jestlerle anlatmak, el kol hareketi yapmak",
+    "example": "He was gesticulating wildly while he talked.",
+    "turkishExample": "Konuşurken çılgınca el kol hareketi yapıyordu (jestlerle anlatıyordu)."
+  },
+  {
+    "word": "Giddy",
+    "type": "adjective",
+    "turkish": "Başı dönen, sersem, fırıldak (mecazi)",
+    "example": "He felt giddy after spinning around.",
+    "turkishExample": "Kendi etrafında döndükten sonra başı döndü (sersemledi)."
+  },
+  {
+    "word": "Glacial",
+    "type": "adjective",
+    "turkish": "Buzul, çok soğuk, çok yavaş",
+    "example": "The project is moving at a glacial pace.",
+    "turkishExample": "Proje buzul hızında (çok yavaş) ilerliyor."
+  },
+  {
+    "word": "Gleam",
+    "type": "verb",
+    "turkish": "Işıldamak, parlamak, belli belirsiz görünmek",
+    "example": "The car gleams in the sunlight.",
+    "turkishExample": "Araba güneş ışığında parlıyor (ışıldıyor)."
+  },
+  {
+    "word": "Glib",
+    "type": "adjective",
+    "turkish": "Akıcı ama yüzeysel, lafbaz",
+    "example": "He gave a glib excuse for his mistake.",
+    "turkishExample": "Hatası için yüzeysel (inandırıcılığı olmayan) bir mazeret uydurdu."
+  },
+  {
+    "word": "Gloat",
+    "type": "verb",
+    "turkish": "Kötü niyetle sevinmek, hırsla bakmak",
+    "example": "Stop gloating over your success.",
+    "turkishExample": "Başarınla (insanları incitecek şekilde) sevinip durma."
+  },
+  {
+    "word": "Glut",
+    "type": "noun",
+    "turkish": "Fazlalık, aşırılık, arz fazlası",
+    "example": "There is a glut of oil on the market.",
+    "turkishExample": "Piyasada bir petrol fazlası (arz fazlası) var."
+  },
+  {
+    "word": "Grandeur",
+    "type": "noun",
+    "turkish": "İhtişam, görkem, büyüklük",
+    "example": "The grandeur of the mountains was breathtaking.",
+    "turkishExample": "Dağların ihtişamı nefes kesiciydi."
+  },
+  {
+    "word": "Grandiose",
+    "type": "adjective",
+    "turkish": "Görkemli, gösterişli, iddialı",
+    "example": "He has grandiose plans for the company.",
+    "turkishExample": "Şirket için çok iddialı (görkemli) planları var."
+  },
+  {
+    "word": "Grapple",
+    "type": "verb",
+    "turkish": "Boğuşmak, uğraşmak, kavramak",
+    "example": "The government is grappling with a multi-billion dollar deficit.",
+    "turkishExample": "Hükümet milyarlarca dolarlık bir açıkla boğuşuyor."
+  },
+  {
+    "word": "Gratuitous",
+    "type": "adjective",
+    "turkish": "Gereksiz, anlamsız, karşılıksız",
+    "example": "The movie contains a lot of gratuitous violence.",
+    "turkishExample": "Film pek çok gereksiz (anlamsız) şiddet içeriyor."
+  },
+  {
+    "word": "Gregarious",
+    "type": "adjective",
+    "turkish": "Sokulgan, sosyal, toplu yaşayan",
+    "example": "He is a very gregarious person.",
+    "turkishExample": "Çok sosyal (sokulgan) biridir."
+  },
+  {
+    "word": "Grievous",
+    "type": "adjective",
+    "turkish": "Acı veren, ağır, şiddetli",
+    "example": "He suffered a grievous injury.",
+    "turkishExample": "Ağır (acı veren) bir yara aldı."
+  },
+  {
+    "word": "Grotesque",
+    "type": "adjective",
+    "turkish": "Grotesk, acayip, garip",
+    "example": "The carvings were grotesque and ugly.",
+    "turkishExample": "Oymalar garip (acayip) ve çirkindi."
+  },
+  {
+    "word": "Guerilla",
+    "type": "noun",
+    "turkish": "Gerilla",
+    "example": "The guerilla forces have controlled the region for years.",
+    "turkishExample": "Gerilla güçleri yıllardır bölgeyi kontrol ediyor."
+  },
+  {
+    "word": "Guile",
+    "type": "noun",
+    "turkish": "Hile, kurnazlık, aldatma",
+    "example": "He used guile and deception to get ahead.",
+    "turkishExample": "Öne geçmek için kurnazlık ve aldatma kullandı."
+  },
+  {
+    "word": "Hackneyed",
+    "type": "adjective",
+    "turkish": "Basma kalıp, bayat, klişe",
+    "example": "The plot of the movie was very hackneyed.",
+    "turkishExample": "Filmin konusu çok basma kalıp (klişe) idi."
+  },
+  {
+    "word": "Hallow",
+    "type": "verb",
+    "turkish": "Kutsamak, saygı göstermek",
+    "example": "A hallowed tradition.",
+    "turkishExample": "Kutsal (çok saygı duyulan) bir gelenek."
+  },
+  {
+    "word": "Hapless",
+    "type": "adjective",
+    "turkish": "Talihsiz, kısmetsiz",
+    "example": "The hapless victim was robbed twice.",
+    "turkishExample": "Talihsiz kurban iki kez soyuldu."
+  },
+  {
+    "word": "Harangue",
+    "type": "verb",
+    "turkish": "Nutuk çekmek, azarlamak",
+    "example": "The teacher harangued the students for their lack of discipline.",
+    "turkishExample": "Öğretmen, disiplinsizliklerinden dolayı öğrencilere nutuk çekti (onları azarladı)."
+  },
+  {
+    "word": "Harbinger",
+    "type": "noun",
+    "turkish": "Haberci, müjdeci, işaret",
+    "example": "The first swallow is a harbinger of spring.",
+    "turkishExample": "İlk kırlangıç baharın habercisidir."
+  },
+  {
+    "word": "Haughty",
+    "type": "adjective",
+    "turkish": "Kibirli, mağrur, üstten bakan",
+    "example": "He has a very haughty manner.",
+    "turkishExample": "Çok kibir bir tavrı var."
+  },
+  {
+    "word": "Hazy",
+    "type": "adjective",
+    "turkish": "Puslu, dumanlı, belirsiz",
+    "example": "The weather was hazy in the morning.",
+    "turkishExample": "Sabah hava pusluydu."
+  },
+  {
+    "word": "Hedonism",
+    "type": "noun",
+    "turkish": "Hazcılık, hedonizm",
+    "example": "His life was one of pure hedonism.",
+    "turkishExample": "Hayatı tamamen hazcılık (hedonizm) üzerine kuruluydu."
+  },
+  {
+    "word": "Heinous",
+    "type": "adjective",
+    "turkish": "Menfur, iğrenç, nefret uyandıran",
+    "example": "It was a heinous crime.",
+    "turkishExample": "İğrenç (menfur) bir suçtu."
+  },
+  {
+    "word": "Hierarchy",
+    "type": "noun",
+    "turkish": "Hiyerarşi, alt-üst ilişkisi",
+    "example": "There is a clear hierarchy within the company.",
+    "turkishExample": "Şirket içinde net bir hiyerarşi var."
+  },
+  {
+    "word": "Homogeneous",
+    "type": "adjective",
+    "turkish": "Homojen, bağdaşık, tekdüze",
+    "example": "The population of the region is quite homogeneous.",
+    "turkishExample": "Bölge nüfusu oldukça homojendir."
+  },
+  {
+    "word": "Hostility",
+    "type": "noun",
+    "turkish": "Düşmanlık, husumet",
+    "example": "There is no hostility between the Two countries.",
+    "turkishExample": "İki ülke arasında düşmanlık yok."
+  },
+  {
+    "word": "Hubris",
+    "type": "noun",
+    "turkish": "Kibir, gurur (yıkıma yol açan)",
+    "example": "The leader was undone by his own hubris.",
+    "turkishExample": "Lider, kendi kibri yüzünden yıkıldı."
+  },
+  {
+    "word": "Hypocrisy",
+    "type": "noun",
+    "turkish": "İkiyüzlülük, riyakarlık",
+    "example": "It was a classic example of hypocrisy.",
+    "turkishExample": "Klasik bir ikiyüzlülük (riyakarlık) örneğiydi."
+  },
+  {
+    "word": "Hypothetical",
+    "type": "adjective",
+    "turkish": "Varsayımsal, hipoteze dayalı, farazi",
+    "example": "Let's consider a hypothetical situation.",
+    "turkishExample": "Farazi (varsayımsal) bir durumu ele alalım."
+  },
+  {
+    "word": "Iconoclast",
+    "type": "noun",
+    "turkish": "Yerleşik inançlara karşı çıkan kimse, gelenek yıkıcı",
+    "example": "He was an iconoclast who challenged the status quo.",
+    "turkishExample": "Mevcut durumu sorgulayan bir gelenek yıkıcı (iconoclast) idi."
+  },
+  {
+    "word": "Ideology",
+    "type": "noun",
+    "turkish": "İdeoloji",
+    "example": "The Two parties have very different ideologies.",
+    "turkishExample": "İki partinin çok farklı ideolojileri var."
+  },
+  {
+    "word": "Idiosyncrasy",
+    "type": "noun",
+    "turkish": "Nev-i şahsına münhasırlık, kendine özgü özellik, alışılmadık davranış",
+    "example": "One of his idiosyncrasies is that he always wears Two different socks.",
+    "turkishExample": "Onun garip özelliklerinden (idiosyncrasy) biri her zaman iki farklı çorap giymesidir."
+  },
+  {
+    "word": "Idolize",
+    "type": "verb",
+    "turkish": "Putlaştırmak, taparcasına sevmek",
+    "example": "The fans idolize the young singer.",
+    "turkishExample": "Hayranlar genç şarkıcıyı taparcasına seviyorlar (putlaştırıyorlar)."
+  },
+  {
+    "word": "Ignominious",
+    "type": "adjective",
+    "turkish": "Utanç verici, rezil",
+    "example": "The team suffered an ignominious defeat.",
+    "turkishExample": "Takım utanç verici (rezilce) bir yenilgi aldı."
+  },
+  {
+    "word": "Illicit",
+    "type": "adjective",
+    "turkish": "Yasadışı, kanunsuz",
+    "example": "The sale of illicit drugs is a major problem.",
+    "turkishExample": "Yasadışı uyuşturucu satışı büyük bir sorundur."
+  },
+  {
+    "word": "Immaculate",
+    "type": "adjective",
+    "turkish": "Lekesiz, tertemiz, kusursuz",
+    "example": "The house was in an immaculate condition.",
+    "turkishExample": "Ev tertemiz (kusursuz) bir durumdaydı."
+  },
+  {
+    "word": "Imminent",
+    "type": "adjective",
+    "turkish": "Eli kulağında, yakın, her an olabilir",
+    "example": "A major crisis is imminent.",
+    "turkishExample": "Büyük bir kriz kapıda (her an olabilir)."
+  },
+  {
+    "word": "Immutable",
+    "type": "adjective",
+    "turkish": "Değişmez, sabit",
+    "example": "The laws of nature are immutable.",
+    "turkishExample": "Doğa yasaları değişmezdir."
+  },
+  {
+    "word": "Impartial",
+    "type": "adjective",
+    "turkish": "Tarafsız, adil",
+    "example": "The judge must be impartial.",
+    "turkishExample": "Yargıç tarafsız olmalıdır."
+  },
+  {
+    "word": "Impeccable",
+    "type": "adjective",
+    "turkish": "Kusursuz, hatasız",
+    "example": "Her English is impeccable.",
+    "turkishExample": "İngilizcesi kusursuzdur."
+  },
+  {
+    "word": "Impecunious",
+    "type": "adjective",
+    "turkish": "Parasız, fakir",
+    "example": "The young artist was impecunious but full of hope.",
+    "turkishExample": "Genç sanatçı parasızdı ama umut doluydu."
+  },
+  {
+    "word": "Imperious",
+    "type": "adjective",
+    "turkish": "Kibirli, otoriter, emredici",
+    "example": "He has a very imperious manner.",
+    "turkishExample": "Çok otoriter (emredici) bir tavrı var."
+  },
+  {
+    "word": "Imperturbable",
+    "type": "adjective",
+    "turkish": "Sakin, soğukkanlı, istifini bozmayan",
+    "example": "He remained imperturbable even in the face of great danger.",
+    "turkishExample": "Büyük bir tehlike karşısında bile istifini bozmadı (sakin kaldı)."
+  },
+  {
+    "word": "Impervious",
+    "type": "adjective",
+    "turkish": "Geçirmez, etkilenmez",
+    "example": "Leather is impervious to water.",
+    "turkishExample": "Deri su geçirmezdir."
+  },
+  {
+    "word": "Impetuous",
+    "type": "adjective",
+    "turkish": "Düşüncesizce hareket eden, fevri, aceleci",
+    "example": "He made an impetuous decision to quit his job.",
+    "turkishExample": "İşinden ayrılmak için fevri (düşüncesizce) bir karar verdi."
+  },
+  {
+    "word": "Implacable",
+    "type": "adjective",
+    "turkish": "Yatıştırılamaz, amansız, uzlaşmaz",
+    "example": "He has remained an implacable opponent of the regime.",
+    "turkishExample": "Rejimin amansız (uzlaşmaz) bir muhalifi olarak kaldı."
+  },
+  {
+    "word": "Importune",
+    "type": "verb",
+    "turkish": "Sürekli rahatsız etmek, yalvarıp yakarmak, musallat olmak",
+    "example": "She was importuned by beggars in the street.",
+    "turkishExample": "Sokakta dilenciler tarafından rahatsız edildi (yalvarıp yakarıldı)."
+  },
+  {
+    "word": "Impound",
+    "type": "verb",
+    "turkish": "El koymak, hapsetmek, (hayvanı) barınağa kapatmak",
+    "example": "The police impounded the car.",
+    "turkishExample": "Polis arabaya el koydu."
+  },
+  {
+    "word": "Imprecation",
+    "type": "noun",
+    "turkish": "Beddua, lanet okuma",
+    "example": "He uttered a loud imprecation.",
+    "turkishExample": "Yüksek sesle bir beddua okudu."
+  },
+  {
+    "word": "Impregnable",
+    "type": "adjective",
+    "turkish": "Zapt edilemez, ele geçirilemez, sarsılmaz",
+    "example": "The fortress was considered impregnable.",
+    "turkishExample": "Kale zapt edilemez (ele geçirilemez) kabul ediliyolu."
+  },
+  {
+    "word": "Impromptu",
+    "type": "adjective",
+    "turkish": "Hazırlıksız, doğaçlama",
+    "example": "He gave an impromptu speech at the party.",
+    "turkishExample": "Partide hazırlıksız (doğaçlama) bir konuşma yaptı."
+  },
+  {
+    "word": "Improvident",
+    "type": "adjective",
+    "turkish": "İleriyi göremeyen, tedbirsiz, savurgan",
+    "example": "His improvident lifestyle led him into debt.",
+    "turkishExample": "Tedbirsiz (savurgan) yaşam tarzı onu borca sürükledi."
+  },
+  {
+    "word": "Improvise",
+    "type": "verb",
+    "turkish": "Doğaçlama yapmak, uyduruvermek",
+    "example": "They had to improvise a meal from what was in the fridge.",
+    "turkishExample": "Buzdolabındakilerle bir yemek uyduruvermek (doğaçlama yapmak) zorunda kaldılar."
+  },
+  {
+    "word": "Imprudent",
+    "type": "adjective",
+    "turkish": "İhtiyatsız, basiretsiz, düşüncesiz",
+    "example": "It would be imprudent to invest all your money in one company.",
+    "turkishExample": "Tüm paranı tek bir şirkete yatırmak ihtiyatsızlık (düşüncesizlik) olur."
+  },
+  {
+    "word": "Impudence",
+    "type": "noun",
+    "turkish": "Arsızlık, küstahlık",
+    "example": "He was shocked by the boy's impudence.",
+    "turkishExample": "Çocuğun küstahlığına (arsızlığına) şok oldu."
+  },
+  {
+    "word": "Impugn",
+    "type": "verb",
+    "turkish": "Sorgulamak, aksini iddia etmek, dürüstlüğünden şüphe etmek",
+    "example": "She was angry that her motives were being impugned.",
+    "turkishExample": "Niyetlerinin sorgulanmasına (şüphe edilmesine) kızmıştı."
+  },
+  {
+    "word": "Impunity",
+    "type": "noun",
+    "turkish": "Cezasız kalma, muafiyet",
+    "example": "You cannot break the law with impunity.",
+    "turkishExample": "Yasaları cezasız kalacak şekilde (yanına kar kalarak) çiğneyemezsin."
+  },
+  {
+    "word": "Inadvertent",
+    "type": "adjective",
+    "turkish": "İstem dışı, kasıtsız, yanlışlıkla yapılan",
+    "example": "It was an inadvertent error.",
+    "turkishExample": "İstem dışı (yanlışlıkla yapılmış) bir hataydı."
+  },
+  {
+    "word": "Inalienable",
+    "type": "adjective",
+    "turkish": "Devredilemez, vazgeçilemez",
+    "example": "Freedom is an inalienable right.",
+    "turkishExample": "Özgürlük devredilemez (vazgeçilemez) bir haktır."
+  },
+  {
+    "word": "Inane",
+    "type": "adjective",
+    "turkish": "Anlamsız, boş, saçma sapan",
+    "example": "Stop asking such inane questions.",
+    "turkishExample": "Böyle anlamsız (saçma sapan) sorular sormayı bırak."
+  },
+  {
+    "word": "Inaugurate",
+    "type": "verb",
+    "turkish": "Açılışını yapmak, (göreve) törenle başlatmak",
+    "example": "The President will inaugurate the new hospital.",
+    "turkishExample": "Başkan yeni hastanenin açılışını yapacak."
+  },
+  {
+    "word": "Incandescent",
+    "type": "adjective",
+    "turkish": "Akkor, ışık saçan, parlayan",
+    "example": "The incandescent light bulb.",
+    "turkishExample": "Akkor (parlayan) ampul."
+  },
+  {
+    "word": "Incarcerate",
+    "type": "verb",
+    "turkish": "Hapse atmak, hapsetmek",
+    "example": "He was incarcerated for Two years.",
+    "turkishExample": "İki yıl boyunca hapsedildi (hapse atıldı)."
+  },
+  {
+    "word": "Incarnate",
+    "type": "adjective",
+    "turkish": "Vücut bulmuş, somutlaşmış",
+    "example": "He is the devil incarnate.",
+    "turkishExample": "O, şeytanın vücut bulmuş halidir."
+  },
+  {
+    "word": "Incendiary",
+    "type": "adjective",
+    "turkish": "Yangın çıkarıcı, kışkırtıcı",
+    "example": "He was arrested for his incendiary comments.",
+    "turkishExample": "Kışkırtıcı (yangın çıkarıcı) yorumlarından dolayı tutuklandı."
+  },
+  {
+    "word": "Incessant",
+    "type": "adjective",
+    "turkish": "Aralıksız, durmaksızın",
+    "example": "The incessant noise made it impossible to sleep.",
+    "turkishExample": "Aralıksız (durmak bilmeyen) gürültü uyumayı imkansız kıldı."
+  },
+  {
+    "word": "Inchoate",
+    "type": "adjective",
+    "turkish": "Henüz başlamış, tamamlanmamış, şekillenmemiş",
+    "example": "His ideas were still in an inchoate stage.",
+    "turkishExample": "Fikirleri henüz şekillenmemiş (başlangıç) bir aşamadaydı."
+  },
+  {
+    "word": "Incipient",
+    "type": "adjective",
+    "turkish": "Başlangıç halinde olan, yeni filizlenen",
+    "example": "The signs of an incipient recovery are visible.",
+    "turkishExample": "Yeni filizlenen bir iyileşmenin işaretleri görünüyor."
+  },
+  {
+    "word": "Incisive",
+    "type": "adjective",
+    "turkish": "Keskin, delici, etkili (zeka, söz vb.)",
+    "example": "He has an incisive mind.",
+    "turkishExample": "Keskin (etkili) bir zekası var."
+  },
+  {
+    "word": "Incite",
+    "type": "verb",
+    "turkish": "Kışkırtmak, teşvik etmek (kötü bir şeye)",
+    "example": "They were accused of inciting violence.",
+    "turkishExample": "Şiddete teşvik etmekle (kışkırtmakla) suçlandılar."
+  },
+  {
+    "word": "Inlement",
+    "type": "adjective",
+    "turkish": "Sert, fırtınalı (hava), merhametsiz",
+    "example": "Inclemet weather conditions.",
+    "turkishExample": "Sert (fırtınalı) hava koşulları."
+  },
+  {
+    "word": "Inclusive",
+    "type": "adjective",
+    "turkish": "Kapsamlı, dâhil",
+    "example": "The price is inclusive of tax.",
+    "turkishExample": "Fiyata vergi dâhildir."
+  },
+  {
+    "word": "Incoherent",
+    "type": "adjective",
+    "turkish": "Tutarsız, anlaşılmaz, kopuk kopuk (konuşma vb.)",
+    "example": "He was so angry that he became incoherent.",
+    "turkishExample": "O kadar kızmıştı ki ne dediği anlaşılmaz (kopuk kopuk) bir hale geldi."
+  },
+  {
+    "word": "Incompatible",
+    "type": "adjective",
+    "turkish": "Uyumsuz, bağdaşmaz",
+    "example": "The Two systems are incompatible.",
+    "turkishExample": "İki sistem birbiriyle uyumsuz (bağdaşmaz)."
+  },
+  {
+    "word": "Incongruous",
+    "type": "adjective",
+    "turkish": "Uyumsuz, aykırı, yersiz",
+    "example": "Practical jokes can seem incongruous in a hospital.",
+    "turkishExample": "Eşek şakaları bir hastanede yersiz (aykırı) görünebilir."
+  },
+  {
+    "word": "Inconsequential",
+    "type": "adjective",
+    "turkish": "Önemsiz, mantıksız, yersiz",
+    "example": "The difference between the Two results was inconsequential.",
+    "turkishExample": "İki sonuç arasındaki fark önemsizdi."
+  },
+  {
+    "word": "Incorrigible",
+    "type": "adjective",
+    "turkish": "Islah olmaz, düzelmez",
+    "example": "He is an incorrigible liar.",
+    "turkishExample": "O ıslah olmaz bir yalancıdır."
+  },
+  {
+    "word": "Incredulous",
+    "type": "adjective",
+    "turkish": "Şüpheci, inanmayan, hayretler içerisinde kalan",
+    "example": "She was incredulous when she heard the news.",
+    "turkishExample": "Haberi duyduğunda hayretler içerisinde kaldı (inanamadı)."
+  },
+  {
+    "word": "Incriminate",
+    "type": "verb",
+    "turkish": "Suçlamak, suçlu çıkarmak, (suça) bulaştırmak",
+    "example": "He refused to answer questions that might incriminate him.",
+    "turkishExample": "Kendisini suçlu çıkarabilecek (suça bulaştırabilecek) soruları cevaplamayı reddetti."
+  },
+  {
+    "word": "Inculpate",
+    "type": "verb",
+    "turkish": "Suçlamak, suç yüklemek",
+    "example": "The evidence seemed to inculpate him.",
+    "turkishExample": "Kanıtlar ona suç yüklüyor (onu suçluyor) gibi görünüyordu."
+  },
+  {
+    "word": "Incumbent",
+    "type": "adjective",
+    "turkish": "Zorunlu, (görevini) sürdüren, görevli",
+    "example": "It is incumbent on you to finish the work.",
+    "turkishExample": "İşi bitirmek senin görevin (sana düşen bir zorunluluk)."
+  },
+  {
+    "word": "Indecorous",
+    "type": "adjective",
+    "turkish": "Yersiz, edebe aykırı, çirkin",
+    "example": "He was criticized for his indecorous behavior.",
+    "turkishExample": "Edebe aykırı (çirkin) davranışlarından dolayı eleştirildi."
+  },
+  {
+    "word": "Indefatigable",
+    "type": "adjective",
+    "turkish": "Yorulmaz, azimli, yorulmak bilmez",
+    "example": "She is an indefatigable worker.",
+    "turkishExample": "Yorulmak bilmez (azimli) bir çalışandır."
+  },
+  {
+    "word": "Indelible",
+    "type": "adjective",
+    "turkish": "Silinmez, çıkmaz, unutulmaz",
+    "example": "The experience left an indelible mark on his memory.",
+    "turkishExample": "Deneyim hafızasında silinmez bir iz bıraktı."
+  },
+  {
+    "word": "Indifferent",
+    "type": "adjective",
+    "turkish": "Kayıtsız, ilgisiz, tarafsız",
+    "example": "He seemed indifferent to the news.",
+    "turkishExample": "Habere karşı kayıtsız göründü."
+  },
+  {
+    "word": "Indigenous",
+    "type": "adjective",
+    "turkish": "Yerli, yöreye özgü",
+    "example": "The kangaroo is indigenous to Australia.",
+    "turkishExample": "Kanguru Avustralya'ya özgüdür (yerlisidir)."
+  },
+  {
+    "word": "Indigent",
+    "type": "adjective",
+    "turkish": "Yoksul, fakir, muhtaç",
+    "example": "The charity provides food for indigent families.",
+    "turkishExample": "Hayır kurumu muhtaç (yoksul) ailelere yiyecek sağlıyor."
+  },
+  {
+    "word": "Indignant",
+    "type": "adjective",
+    "turkish": "Kızgın, küskün, haksızlığa uğramış hisseden",
+    "example": "She was indignant at the way she had been treated.",
+    "turkishExample": "Gördüğü muameleye karşı çok kızgındı (küskündü)."
+  },
+  {
+    "word": "Indolent",
+    "type": "adjective",
+    "turkish": "Tembel, uyuşuk, miskin",
+    "example": "The hot weather makes everyone feel indolent.",
+    "turkishExample": "Sıcak hava herkesi uyuşuk (miskin) hissettiriyor."
+  },
+  {
+    "word": "Indomitable",
+    "type": "adjective",
+    "turkish": "Yılmaz, boyun eğmez, sarsılmaz",
+    "example": "Her indomitable spirit inspired everyone.",
+    "turkishExample": "Onun yılmaz ruhu herkese ilham verdi."
+  },
+  {
+    "word": "Indulgent",
+    "type": "adjective",
+    "turkish": "Hoşgörülü, yüz veren, müsamahalı",
+    "example": "His parents were very indulgent with him.",
+    "turkishExample": "Ailesi ona karşı çok müsamahalıydı (ona çok yüz veriyordu)."
+  },
+  {
+    "word": "Inebriated",
+    "type": "adjective",
+    "turkish": "Sarhoş, akşamcı",
+    "example": "He was clearly inebriated.",
+    "turkishExample": "Açıkça sarhoştu."
+  },
+  {
+    "word": "Inexorable",
+    "type": "adjective",
+    "turkish": "Amansız, sert, değiştirilemez, durdurulamaz",
+    "example": "The inexorable progress of technology.",
+    "turkishExample": "Teknolojinin durdurulamaz (amansız) ilerleyişi."
+  },
+  {
+    "word": "Infallible",
+    "type": "adjective",
+    "turkish": "Hata yapmaz, yanılmaz, kesin",
+    "example": "None of us is infallible.",
+    "turkishExample": "Hiçbirimiz yanılmaz (hata yapmaz) değiliz."
+  },
+  {
+    "word": "Infamous",
+    "type": "adjective",
+    "turkish": "Adı kötüye çıkmış, rezil, dilden dile dolaşan (kötülükle)",
+    "example": "He is an infamous criminal.",
+    "turkishExample": "Adı kötüye çıkmış (rezil) bir suçludur."
+  },
+  {
+    "word": "Inference",
+    "type": "noun",
+    "turkish": "Çıkarım, sonuç, anlam çıkarma",
+    "example": "What inference can you draw from the data?",
+    "turkishExample": "Verilerden ne çıkarım yapabilirsin?"
+  },
+  {
+    "word": "Infinitesimal",
+    "type": "adjective",
+    "turkish": "Çok küçük, sonsuz derece küçük",
+    "example": "The difference between the Two points is infinitesimal.",
+    "turkishExample": "İki nokta arasındaki fark sonsuz derece küçüktür (yok denecek kadar azdır)."
+  },
+  {
+    "word": "Ingenious",
+    "type": "adjective",
+    "turkish": "Dahice, marifetli, usta işi",
+    "example": "That's an ingenious solution to the problem.",
+    "turkishExample": "Bu sorun için dahice (marifetli) bir çözüm."
+  },
+  {
+    "word": "Ingenuous",
+    "type": "adjective",
+    "turkish": "Saf, temiz kalpli, dürüst, açık sözlü",
+    "example": "He has an ingenuous personality.",
+    "turkishExample": "Saf (temiz kalpli) bir kişiliği var."
+  },
+  {
+    "word": "Ingratiate",
+    "type": "verb",
+    "turkish": "Gözüne girmek, yaranmak",
+    "example": "He tried to ingratiate himself with the boss.",
+    "turkishExample": "Patronun gözüne girmeye (ona yaranmaya) çalıştı."
+  },
+  {
+    "word": "Inimical",
+    "type": "adjective",
+    "turkish": "Düşmanca, aykırı, zararlı",
+    "example": "These new rules are inimical to the interests of the workers.",
+    "turkishExample": "Bu yeni kurallar işçilerin çıkarlarına aykırıdır."
+  },
+  {
+    "word": "Inimitable",
+    "type": "adjective",
+    "turkish": "Taklit edilemez, eşsiz",
+    "example": "He has an inimitable style of writing.",
+    "turkishExample": "Eşsiz (taklit edilemez) bir yazım tarzı var."
+  },
+  {
+    "word": "Iniquity",
+    "type": "noun",
+    "turkish": "Adaletsizlik, haksızlık, kötülük",
+    "example": "The iniquity of the situation was obvious to all.",
+    "turkishExample": "Durumdaki adaletsizlik (kötülük) herkes için barizdi."
+  },
+  {
+    "word": "Innocuous",
+    "type": "adjective",
+    "turkish": "Zararsız, tehlikesiz",
+    "example": "It was just an innocuous remark.",
+    "turkishExample": "Sadece zararsız (tehlikesiz) bir yorumdu."
+  },
+  {
+    "word": "Inordinate",
+    "type": "adjective",
+    "turkish": "Aşırı, ölçüsüz, çok fazla",
+    "example": "They spent an inordinate amount of time on the project.",
+    "turkishExample": "Projeye aşırı (ölçüsüz) miktarda zaman harcadılar."
+  },
+  {
+    "word": "Insatiable",
+    "type": "adjective",
+    "turkish": "Doymak bilmez, açgözlü",
+    "example": "He has an insatiable appetite for power.",
+    "turkishExample": "İktidara karşı doymak bilmez bir hırsı var."
+  },
+  {
+    "word": "Inscrutable",
+    "type": "adjective",
+    "turkish": "Anlaşılmaz, gizemli, kapalı",
+    "example": "He has an inscrutable expression on his face.",
+    "turkishExample": "Yüzünde anlaşılmaz (gizemli) bir ifade var."
+  },
+  {
+    "word": "Insidious",
+    "type": "adjective",
+    "turkish": "Sinsi, haince, gizlice yayılan",
+    "example": "Cancer is an insidious disease.",
+    "turkishExample": "Kanser sinsi (gizlice yayılan) bir hastalıktır."
+  },
+  {
+    "word": "Insinuate",
+    "type": "verb",
+    "turkish": "İma etmek, sinsi sinsi sokulmak",
+    "example": "What are you trying to insinuate?",
+    "turkishExample": "Ne ima etmeye çalışıyorsun?"
+  },
+  {
+    "word": "Insipid",
+    "type": "adjective",
+    "turkish": "Tatsız, yavan, ruhsuz",
+    "example": "The coffee was weak and insipid.",
+    "turkishExample": "Kahve zayıf ve tatsızdı (yavandı)."
+  },
+  {
+    "word": "Insolent",
+    "type": "adjective",
+    "turkish": "Küstah, saygısız",
+    "example": "The insolent boy refused to apologize.",
+    "turkishExample": "Küstah çocuk özür dilemeyi reddetti."
+  },
+  {
+    "word": "Insolvent",
+    "type": "adjective",
+    "turkish": "Müflis, borcunu ödeyemeyen, iflas etmiş",
+    "example": "The company was declared insolvent.",
+    "turkishExample": "Şirket müflis (iflas etmiş) ilan edildi."
+  },
+  {
+    "word": "Instigate",
+    "type": "verb",
+    "turkish": "Kışkırtmak, önayak olmak, başlatmak (kötü bir şeyi)",
+    "example": "He was accused of instigating the riot.",
+    "turkishExample": "İsyanı kışkırtmakla (başlatmakla) suçlandı."
+  },
+  {
+    "word": "Insular",
+    "type": "adjective",
+    "turkish": "Dar görüşlü, dünyaya kapalı, adaya özgü",
+    "example": "The community has a very insular attitude.",
+    "turkishExample": "Topluluğun dünyaya kapalı (dar görüşlü) bir tavrı var."
+  },
+  {
+    "word": "Insurmountable",
+    "type": "adjective",
+    "turkish": "Başa çıkılamaz, yenilemez, üstesinden gelinemez",
+    "example": "The Two companies faced insurmountable difficulties.",
+    "turkishExample": "İki şirket üstesinden gelinemez zorluklarla karşılaştı."
+  },
+  {
+    "word": "Intangible",
+    "type": "adjective",
+    "turkish": "Somut olmayan, elle tutulamaz, manevi",
+    "example": "Trust is an intangible asset.",
+    "turkishExample": "Güven somut olmayan (manevi) bir varlıktır."
+  },
+  {
+    "word": "Integral",
+    "type": "adjective",
+    "turkish": "Tamamlayıcı, bütünleyici, ayrılmaz",
+    "example": "Teamwork is an integral part of the job.",
+    "turkishExample": "Ekip çalışması işin ayrılmaz (bütünleyici) bir parçasıdır."
+  },
+  {
+    "word": "Integrity",
+    "type": "noun",
+    "turkish": "Dürüstlük, bütünlük, onur",
+    "example": "He is a man of great integrity.",
+    "turkishExample": "O büyük dürüstlük (onur) sahibi bir adamdır."
+  },
+  {
+    "word": "Intelligible",
+    "type": "adjective",
+    "turkish": "Anlaşılır, net",
+    "example": "The instructions were not easily intelligible.",
+    "turkishExample": "Talimatların anlaşılması pek kolay değildi."
+  },
+  {
+    "word": "Intermittent",
+    "type": "adjective",
+    "turkish": "Aralıklı, kesintili",
+    "example": "There were intermittent showers throughout the day.",
+    "turkishExample": "Gün boyunca aralıklı sağanak yağışlar oldu."
+  },
+  {
+    "word": "Intractable",
+    "type": "adjective",
+    "turkish": "İnatçı, zorlu, söz dinlemez",
+    "example": "The problem proved to be intractable.",
+    "turkishExample": "Sorunun zorlu (inatçı) olduğu ortaya çıktı."
+  },
+  {
+    "word": "Intransigent",
+    "type": "adjective",
+    "turkish": "Uzlaşmaz, katı, inatçı",
+    "example": "The government remained intransigent in its refusal to negotiate.",
+    "turkishExample": "Hükümet müzakere etmeyi reddetme konusunda uzlaşmaz (katı) kaldı."
+  },
+  {
+    "word": "Intrepid",
+    "type": "adjective",
+    "turkish": "Korkusuz, yiğit, gözü pek",
+    "example": "An intrepid explorer.",
+    "turkishExample": "Korkusuz (gözü pek) bir kaşif."
+  },
+  {
+    "word": "Intrinsic",
+    "type": "adjective",
+    "turkish": "Özünde olan, esas, hakiki",
+    "example": "Good health has an intrinsic value.",
+    "turkishExample": "İyi sağlığın esas (hakiki) bir değeri vardır."
+  },
+  {
+    "word": "Inundate",
+    "type": "verb",
+    "turkish": "Su basmak, boğmak, istila etmek (istek vb. ile)",
+    "example": "We were inundated with complaints.",
+    "turkishExample": "Şikayet yağmuruna tutulduk (şikayetlerle boğulduk)."
+  },
+  {
+    "word": "Inure",
+    "type": "verb",
+    "turkish": "Alıştırmak, kanıksatmak (zorluklara vb.)",
+    "example": "The soldiers were inured to the hardships of war.",
+    "turkishExample": "Askerler savaşın zorluklarına alışmışlardı (kanıksamışlardı)."
+  },
+  {
+    "word": "Invalidate",
+    "type": "verb",
+    "turkish": "Geçersiz kılmak, iptal etmek, çürütmek",
+    "example": "The new findings invalidate the previous theory.",
+    "turkishExample": "Yeni bulgular önceki teoriyi çürütüyor (geçersiz kılıyor)."
+  },
+  {
+    "word": "Invective",
+    "type": "noun",
+    "turkish": "Sövüp sayma, ağır eleştiri, hakaret",
+    "example": "The speech was full of invective against the government.",
+    "turkishExample": "Konuşma hükümete karşı ağır eleştirilerle (sövüp saymalarla) doluydu."
+  },
+  {
+    "word": "Inveigle",
+    "type": "verb",
+    "turkish": "Kandırmak, baştan çıkarmak, ikna etmek (hileyle)",
+    "example": "She managed to inveigle him into coming to the party.",
+    "turkishExample": "Onu partiye gelmeye kandırmayı (ikna etmeyi) başardı."
+  },
+  {
+    "word": "Inveterate",
+    "type": "adjective",
+    "turkish": "Kemikleşmiş, köklü, alışkanlık haline gelmiş",
+    "example": "He is an inveterate liar.",
+    "turkishExample": "O köklü (kemikleşmiş) bir yalancıdır."
+  },
+  {
+    "word": "Invidious",
+    "type": "adjective",
+    "turkish": "Nefret uyandırıcı, haksız, incitici",
+    "example": "It was an invidious task to choose between the Two candidates.",
+    "turkishExample": "İki aday arasında seçim yapmak nahoş (incitici) bir görevdi."
+  },
+  {
+    "word": "Irascible",
+    "type": "adjective",
+    "turkish": "Çabuk öfkelenen, asabi, barut gibi",
+    "example": "His irascible temper made him difficult to work with.",
+    "turkishExample": "Asabi mizacı onunla çalışmayı zorlaştırıyordu."
+  },
+  {
+    "word": "Irksome",
+    "type": "adjective",
+    "turkish": "Bıktırıcı, can sıkıcı, yorucu",
+    "example": "The long journey was very irksome.",
+    "turkishExample": "Uzun yolculuk çok bıktırıcıydı (can sıkıcıydı)."
+  },
+  {
+    "word": "Irrelevant",
+    "type": "adjective",
+    "turkish": "İlgisiz, yersiz, konu dışı",
+    "example": "Your point is completely irrelevant to the discussion.",
+    "turkishExample": "Senin görüşün tartışmayla tamamen ilgisiz (konu dışı)."
+  },
+  {
+    "word": "Irreproachable",
+    "type": "adjective",
+    "turkish": "Kusursuz, tertemiz, kınanamaz",
+    "example": "His conduct was irreproachable.",
+    "turkishExample": "Davranışları kusursuzdu (kınanacak bir yeri yoktu)."
   }
 ]
