@@ -617,8 +617,8 @@ class YDSLearner {
 
         const data = {
             userId: this.userEmail,
-            learnedWords: Array.from(this.learnedWords),
-            learningWords: Array.from(this.learningWords),
+            learned: Array.from(this.learnedWords),
+            learning: Array.from(this.learningWords),
             bestStreak: this.bestStreak,
             currentIndex: this.currentIndex
         };
@@ -627,10 +627,15 @@ class YDSLearner {
         localStorage.setItem(`yds_progress_${this.userEmail}`, JSON.stringify(data));
 
         try {
-            const response = await fetch('/api/progress?action=saveProgress', {
+            const response = await fetch(`/api/progress?action=saveProgress&userId=${this.userEmail}`, {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
-                body: JSON.stringify(data)
+                body: JSON.stringify({
+                    learnedWords: data.learned,
+                    learningWords: data.learning,
+                    bestStreak: data.bestStreak,
+                    currentIndex: data.currentIndex
+                })
             });
             const result = await response.json();
             console.log('Progress saved to DB:', result);

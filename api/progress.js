@@ -150,13 +150,14 @@ export default async function handler(req, res) {
 
         // GET - Kullanıcı quiz geçmişi
         if (method === 'GET' && action === 'getQuizHistory') {
-            if (!userId) {
+            const uid = queryUserId;
+            if (!uid) {
                 return res.status(400).json({ error: 'userId gerekli' });
             }
 
             const result = await sql`
                 SELECT * FROM quiz_results 
-                WHERE user_id = ${userId}
+                WHERE user_id = ${uid}
                 ORDER BY created_at DESC
                 LIMIT 20
             `;
