@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YDS Kelime Öğrenme | Sesli & İnteraktif</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Animated Background -->
+    <div class="bg-animation">
+        <div class="floating-shapes"></div>
+    </div>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="logo">
+            <i class="fas fa-graduation-cap"></i>
+            <span>YDS Master</span>
+        </div>
+        <nav class="nav-tabs">
+            <button class="nav-btn active" data-tab="learn"><i class="fas fa-book-open"></i> Öğren</button>
+            <button class="nav-btn" data-tab="quiz"><i class="fas fa-brain"></i> Quiz</button>
+            <button class="nav-btn" data-tab="flashcards"><i class="fas fa-clone"></i> Kartlar</button>
+            <button class="nav-btn" data-tab="stats"><i class="fas fa-chart-line"></i> İstatistik</button>
+        </nav>
+        <div class="progress-indicator">
+            <div class="progress-ring">
+                <svg viewBox="0 0 36 36">
+                    <path class="progress-ring-bg" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"/>
+                    <path class="progress-ring-fill" id="progressRing" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"/>
+                </svg>
+                <span id="progressPercent">0%</span>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <!-- Learn Tab -->
+        <section id="learn" class="tab-content active">
+            <div class="learn-container">
+                <div class="word-card" id="wordCard">
+                    <div class="card-badge">
+                        <span class="word-number">1 / 280</span>
+                        <span class="word-type" id="wordType">verb</span>
+                    </div>
+                    <div class="word-main">
+                        <h1 class="english-word" id="englishWord">Accomplish</h1>
+                        <button class="speak-btn" id="speakBtn" title="Telaffuz et">
+                            <i class="fas fa-volume-high"></i>
+                        </button>
+                    </div>
+                    <div class="word-meaning">
+                        <h2 class="turkish-meaning" id="turkishMeaning">Başarmak, gerçekleştirmek</h2>
+                    </div>
+                    <div class="word-example">
+                        <p id="exampleSentence">"She accomplished all her goals this year."</p>
+                        <button class="speak-example-btn" id="speakExampleBtn">
+                            <i class="fas fa-play"></i> Örneği Dinle
+                        </button>
+                    </div>
+                    <div class="card-actions">
+                        <button class="action-btn know" id="knowBtn">
+                            <i class="fas fa-check"></i> Biliyorum
+                        </button>
+                        <button class="action-btn learning" id="learningBtn">
+                            <i class="fas fa-book"></i> Öğreniyorum
+                        </button>
+                    </div>
+                </div>
+                <div class="navigation-controls">
+                    <button class="nav-arrow" id="prevWord">
+                        <i class="fas fa-chevron-left"></i>
+                    </button>
+                    <button class="shuffle-btn" id="shuffleBtn">
+                        <i class="fas fa-shuffle"></i> Karıştır
+                    </button>
+                    <button class="nav-arrow" id="nextWord">
+                        <i class="fas fa-chevron-right"></i>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Quiz Tab -->
+        <section id="quiz" class="tab-content">
+            <div class="quiz-container">
+                <div class="quiz-header">
+                    <div class="quiz-progress">
+                        <div class="quiz-progress-bar" id="quizProgressBar"></div>
+                    </div>
+                    <div class="quiz-stats">
+                        <span class="quiz-score"><i class="fas fa-star"></i> <span id="quizScore">0</span></span>
+                        <span class="quiz-streak"><i class="fas fa-fire"></i> <span id="quizStreak">0</span></span>
+                    </div>
+                </div>
+                <div class="quiz-card" id="quizCard">
+                    <div class="quiz-question">
+                        <span class="quiz-label">Bu kelimenin Türkçe anlamı nedir?</span>
+                        <h2 class="quiz-word" id="quizWord">Accomplish</h2>
+                        <button class="quiz-speak-btn" id="quizSpeakBtn">
+                            <i class="fas fa-volume-high"></i>
+                        </button>
+                    </div>
+                    <div class="quiz-options" id="quizOptions">
+                        <!-- Options will be generated dynamically -->
+                    </div>
+                    <div class="quiz-feedback" id="quizFeedback">
+                        <div class="feedback-content"></div>
+                    </div>
+                </div>
+                <button class="start-quiz-btn" id="startQuizBtn">
+                    <i class="fas fa-play"></i> Quiz Başlat
+                </button>
+            </div>
+        </section>
+
+        <!-- Flashcards Tab -->
+        <section id="flashcards" class="tab-content">
+            <div class="flashcard-container">
+                <div class="flashcard" id="flashcard">
+                    <div class="flashcard-inner" id="flashcardInner">
+                        <div class="flashcard-front">
+                            <span class="flashcard-label">İngilizce</span>
+                            <h2 id="flashcardWord">Accomplish</h2>
+                            <button class="flashcard-speak" id="flashcardSpeakBtn">
+                                <i class="fas fa-volume-high"></i>
+                            </button>
+                            <p class="flip-hint"><i class="fas fa-sync-alt"></i> Çevirmek için tıkla</p>
+                        </div>
+                        <div class="flashcard-back">
+                            <span class="flashcard-label">Türkçe</span>
+                            <h2 id="flashcardMeaning">Başarmak, gerçekleştirmek</h2>
+                            <p class="flashcard-example" id="flashcardExample">"She accomplished all her goals."</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="flashcard-controls">
+                    <button class="fc-nav" id="fcPrev"><i class="fas fa-arrow-left"></i></button>
+                    <span class="fc-counter" id="fcCounter">1 / 280</span>
+                    <button class="fc-nav" id="fcNext"><i class="fas fa-arrow-right"></i></button>
+                </div>
+                <div class="flashcard-actions">
+                    <button class="fc-action hard" id="fcHard">
+                        <i class="fas fa-times"></i> Zor
+                    </button>
+                    <button class="fc-action easy" id="fcEasy">
+                        <i class="fas fa-check"></i> Kolay
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Stats Tab -->
+        <section id="stats" class="tab-content">
+            <div class="stats-container">
+                <div class="stats-header">
+                    <h2><i class="fas fa-chart-pie"></i> Öğrenme İstatistiklerin</h2>
+                </div>
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <div class="stat-icon learned"><i class="fas fa-check-circle"></i></div>
+                        <div class="stat-info">
+                            <span class="stat-value" id="learnedCount">0</span>
+                            <span class="stat-label">Öğrenilen</span>
+                        </div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon learning"><i class="fas fa-book-reader"></i></div>
+                        <div class="stat-info">
+                            <span class="stat-value" id="learningCount">0</span>
+                            <span class="stat-label">Öğreniliyor</span>
+                        </div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon remaining"><i class="fas fa-clock"></i></div>
+                        <div class="stat-info">
+                            <span class="stat-value" id="remainingCount">280</span>
+                            <span class="stat-label">Kalan</span>
+                        </div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon streak"><i class="fas fa-fire"></i></div>
+                        <div class="stat-info">
+                            <span class="stat-value" id="bestStreak">0</span>
+                            <span class="stat-label">En İyi Seri</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="progress-chart">
+                    <h3>Öğrenme İlerlemen</h3>
+                    <div class="chart-bar">
+                        <div class="chart-fill learned" id="chartLearned"></div>
+                        <div class="chart-fill learning" id="chartLearning"></div>
+                    </div>
+                    <div class="chart-legend">
+                        <span class="legend-item learned"><i class="fas fa-circle"></i> Öğrenilen</span>
+                        <span class="legend-item learning"><i class="fas fa-circle"></i> Öğreniliyor</span>
+                        <span class="legend-item remaining"><i class="fas fa-circle"></i> Kalan</span>
+                    </div>
+                </div>
+                <div class="word-lists">
+                    <div class="word-list-section">
+                        <h3><i class="fas fa-check-circle"></i> Öğrenilen Kelimeler</h3>
+                        <div class="word-list" id="learnedList"></div>
+                    </div>
+                    <div class="word-list-section">
+                        <h3><i class="fas fa-book"></i> Öğrenilen Kelimeler</h3>
+                        <div class="word-list" id="learningList"></div>
+                    </div>
+                </div>
+                <button class="reset-btn" id="resetBtn">
+                    <i class="fas fa-redo"></i> İlerlemeyi Sıfırla
+                </button>
+            </div>
+        </section>
+    </main>
+
+    <!-- Auto-play Toggle -->
+    <div class="auto-play-toggle">
+        <input type="checkbox" id="autoPlayToggle">
+        <label for="autoPlayToggle">
+            <i class="fas fa-headphones"></i> Otomatik Sesli Okuma
+        </label>
+    </div>
+
+    <!-- Toast Notification -->
+    <div class="toast" id="toast">
+        <span class="toast-message"></span>
+    </div>
+
+    <script src="words.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
