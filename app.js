@@ -30,19 +30,57 @@ class YDSLearner {
     }
 
     async loadWords() {
-        if (this.words.length > 0) return; // Zaten yüklüyse tekrar çekme
+        // 1. Önce Önbellekten (Cache) yükle - ANINDA AÇILIŞ
+        const cachedWords = localStorage.getItem('yds_words_cache');
+        if (cachedWords) {
+            try {
+                this.words = JSON.parse(cachedWords);
+                console.log(`${this.words.length} kelime önbellekten anında yüklendi.`);
+                this.updateDisplay();
+                this.updateStats();
+                // Arka planda sessizce güncelleme kontrolü yap
+                this.refreshWordsBackground();
+                return;
+            } catch (e) {
+                console.error("Cache parse error", e);
+            }
+        }
 
+        // 2. Eğer cache yoksa DB'den çek
+        await this.fetchWordsFromDB();
+    }
+
+    async fetchWordsFromDB() {
         try {
-            this.showToast('Kelimeler yükleniyor... ⏳');
+            this.showToast('Kelimeler senkronize ediliyor... ⏳');
             const response = await fetch('/api/progress?action=getWords');
             const result = await response.json();
             if (result.success && result.data) {
                 this.words = result.data;
-                console.log(`${this.words.length} kelime veritabanından başarıyla yüklendi.`);
+                localStorage.setItem('yds_words_cache', JSON.stringify(this.words));
+                console.log(`${this.words.length} kelime DB'den yüklendi ve önbelleğe alındı.`);
+                this.updateDisplay();
+                this.updateStats();
             }
         } catch (error) {
             console.error('Error loading words:', error);
-            this.showToast('Kelimeler yüklenirken hata oluştu! ❌');
+            if (this.words.length === 0) {
+                this.showToast('Kelimeler yüklenirken hata oluştu! ❌');
+            }
+        }
+    }
+
+    async refreshWordsBackground() {
+        try {
+            const response = await fetch('/api/progress?action=getWords');
+            const result = await response.json();
+            if (result.success && result.data && result.data.length !== this.words.length) {
+                this.words = result.data;
+                localStorage.setItem('yds_words_cache', JSON.stringify(this.words));
+                console.log("Kelimeler arka planda güncellendi.");
+            }
+        } catch (e) {
+            // Sessiz hata
         }
     }
 
